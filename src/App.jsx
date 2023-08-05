@@ -1,11 +1,10 @@
-import './App.css'
+import React from 'react'
+import Header from './component/header/header'
 
-function App() {
-  
-
+const App = () => {
   return (
     <div>
-      hello working with tailwind css.
+      <Header/>
     </div>
   )
 }
