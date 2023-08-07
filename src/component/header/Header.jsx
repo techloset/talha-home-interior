@@ -15,11 +15,11 @@ const Header = () => {
                         <img src={image} alt="" />
                     </div>
 
-                    <div className=' grid md:grid-cols-2 text-[#451A64] md:text-[20px] md:font-[500]  ml-[-20px]' >
+                    <div className=' grid md:grid-cols-2 text-[#451A64] md:text-[20px] md:font-[500]  md:ml-[-20px]' >
                         {/* <div className=' bg-blue-500  flex justify-center items-center text-center ml-[20px]'>Join as Design Expert</div> */}
                         {/* <div className=' bg-red-500 w-[195px] flex justify-center items-center text-center mr-[20px]'>Partner with LAND Interiors</div> */}
-                        <div className='  md:flex md:justify-center md:items-center md:text-start ml-[-43px]'>Join as Desig Expert</div>
-                        <div className=' md:flex md:justify-center md:items-center md:text-center ml-[-25px] w-[265px]  '>Partner with LAND interiors</div>
+                        <div className='  md:flex md:justify-center md:items-center md:text-center md:ml-[-20px] md:w-min-[175px]'>Join as Desig Expert</div>
+                        <div className=' md:flex md:justify-center md:items-center md:text-center md:ml-[-25px] '>Partner with LAND interiors</div>
                     </div>
 
 
@@ -42,17 +42,24 @@ const Header = () => {
 
             <div className='grid md:grid-cols-2 mt-[30px]'>
 
-                <div> <img src={image1} alt="" className='  md:w-[1090px] md:h-[613px]' /> </div>
+                <div> <img src={image1} alt="" className=' md:w-[1090px] md:h-[613px] bg-red-400 object-fill ' /> </div>
+                {/* <div> <img src={image1} alt="" className='  md:w-[1090px] md:h-[613px]' /> </div> */}
 
+                {/* <div class="" style={{
+                    backgroundImage: `url("imag.png")`,
+                    backgroundSize: 'cover',
+                    // backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'center center'
+                }}></div> */}
 
-                <div className='bg-purple-400 bg-opacity-75  md:ml-[-85px] md:mt-[108px] md:w-full md:h-[404px] text-center '>
+                <div className='bg-white bg-opacity-75  md:ml-[-55px] md:mt-[110px]  md:h-[370px] text-center '>
 
-                    <div className=''>
-                   
-                    <p className='text-[36px] font-[400]'>Get personalised home interiors </p>
-                    <p className='text-[48px] font-[600]'>in just 50 days</p>
-                    <button className='bg-[#4B2A63] cursor-pointer text-[white] text-[30px] font-[600]'>SPEAK WITH A ONLINE CONSULTANT</button>
-                    
+                    <div className='  md:mt-[90px] md:ml-[40px]'>
+
+                        <p className='md:text-[30px] md:font-[200]'>Get personalised home interiors </p>
+                        <p className='md:text-[40px] md:font-[600] md:mb-[10px]'>in just 50 days</p>
+                        <button className='bg-[#4B2A63] cursor-pointer text-[white] text-[20px] font-[600] md:p-2'>SPEAK WITH A ONLINE CONSULTANT</button>
+
                     </div>
                 </div>
             </div>
