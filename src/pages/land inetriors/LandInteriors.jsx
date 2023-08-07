@@ -9,9 +9,9 @@ const LandInteriors = () => {
   const imageurl = '/images/landCard2.png'
   const imageUrl = '/images/landCard3.png'
   const tailwindClasses = ' flex  items-center ';
-  const img1Width1 = 'w-[68px] h-[73]'
-  const img1Width2 = 'w-[72px] h-[72]'
-  const img1Width3 = 'w-[62px] h-[62]'
+  const img1Width1 = 'w-[68px] h-[73px]'
+  const img1Width2 = 'w-[72px] h-[72px]'
+  const img1Width3 = 'w-[62px] h-[62px]'
   // const textt = 'w-[50px]' 
 
   return (
