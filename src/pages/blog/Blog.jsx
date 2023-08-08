@@ -14,7 +14,7 @@ const Blog = () => {
 
       return (
 
-            <div className='md:mx-10 md:mt-[5%] '>
+            <div className='md:mx-10 md:mt-[10%] '>
 
                   <p className='md:text-[36px] md:font-[500]'>Blogs</p>
 
