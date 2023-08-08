@@ -15,7 +15,7 @@ const Header = () => {
                         <img src={image} alt="" />
                     </div>
 
-                    <div className=' grid md:grid-cols-2 text-[#451A64] md:text-[20px] md:font-[500]  md:ml-[-20px]' >
+                    <div className=' grid md:grid-cols-2 text-[#451A64] md:text-[18px] md:font-[500]  md:ml-[-20px]' >
                         {/* <div className=' bg-blue-500  flex justify-center items-center text-center ml-[20px]'>Join as Design Expert</div> */}
                         {/* <div className=' bg-red-500 w-[195px] flex justify-center items-center text-center mr-[20px]'>Partner with LAND Interiors</div> */}
                         <div className='  md:flex md:justify-center md:items-center md:text-center md:ml-[-20px] md:w-min-[175px]'>Join as Desig Expert</div>
