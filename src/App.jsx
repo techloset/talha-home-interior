@@ -18,9 +18,9 @@ const App = () => {
       <LandInteriors/> 
       <WhatWeDo/>
       <OurProjects/>
-      {/* <Blog/> */}
-      {/* <InterDesignProduct/> */}
-      {/* <HappyCustomer/> */}
+      <Blog/>
+      <InterDesignProduct/>
+      <HappyCustomer/>
       {/* <DreamHome/> */}
       {/* <Footer/> */}
     </div>

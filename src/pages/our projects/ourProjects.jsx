@@ -28,7 +28,7 @@ const ourProjects = () => {
                             vel fringilla est ullamcorper eget nulla</p>
 
                     </div>
-                    <button className='mt-[7%] w-[40%] flex justify-center mx-auto   bg-[#4B2A63] md:p-3 md:w-[40%] text-white'>View All</button>
+                    <button className='mt-[7%] w-[40%] p-1 flex justify-center mx-auto   bg-[#4B2A63] md:p-3 md:w-[40%] text-white'>View All</button>
                 </div>
 
 
