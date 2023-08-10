@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../assets/Artboard.png'
+// import image from '../../assets/Artboard.png'
 import image1 from '../../assets/imag.png'
 
 
@@ -7,25 +7,30 @@ const Header = () => {
     return (
         <div>
 
-            <div className='bg-[#F8F8F8] h-[274px]'>
+            <div className=' md:h-[274px] font-popins '>
 
-                <div className='grid md:grid-cols-2 gap-1 '>
+                <div className='md:grid md:grid-cols-2 md:gap-1 flex justify-between mx-2'>
 
-                    <div className='mt-8'>
-                        <img src={image} alt="" />
+                    <div className='md:mt-8 '>
+                        <img src='/images/Artboard.png' alt="" className=' w-[80px] md:w-[110px] lg:w-[110px] ' />
                     </div>
 
-                    <div className=' grid md:grid-cols-2 text-[#451A64] md:text-[18px] md:font-[500]  md:ml-[-20px]' >
-                        {/* <div className=' bg-blue-500  flex justify-center items-center text-center ml-[20px]'>Join as Design Expert</div> */}
-                        {/* <div className=' bg-red-500 w-[195px] flex justify-center items-center text-center mr-[20px]'>Partner with LAND Interiors</div> */}
+                    <div className='hidden md:grid md:grid-cols-2 text-[#451A64] md:text-[16px] lg:text-[20px] md:font-[500]  md:ml-[-20px]' >
+
                         <div className='  md:flex md:justify-center md:items-center md:text-center md:ml-[-20px] md:w-min-[175px]'>Join as Desig Expert</div>
                         <div className=' md:flex md:justify-center md:items-center md:text-center md:ml-[-25px] '>Partner with LAND interiors</div>
+
                     </div>
+
+                    <div className=' md:hidden lg:hidden flex  justify-center items-center'>
+                        <img src="/images/menu.png" alt="" className='w-[40px] ' />
+                    </div>
+
 
 
                 </div>
 
-                <div className=' grid md:grid-cols-1 text-[20px] font-[400] leading-8 mt-[20px]'>
+                <div className=' hidden md:grid md:grid-cols-1 text-[20px] font-[400] leading-8 mt-[20px]'>
 
                     <div className='grid md:gird-cols-5 gap-10 grid-flow-col  m-auto '  >
                         <div className=''> About</div>
@@ -40,25 +45,20 @@ const Header = () => {
             </div>
 
 
-            <div className='grid md:grid-cols-2 mt-[30px]'>
+            <div className='md:grid md:grid-cols-2 mt-[30px]'>
 
-                <div> <img src={image1} alt="" className=' md:w-[1090px] md:h-[613px] bg-red-400 object-fill ' /> </div>
-                {/* <div> <img src={image1} alt="" className='  md:w-[1090px] md:h-[613px]' /> </div> */}
+                <div className='relative z-0 '> <img src={image1} alt="" className=' md:w-[1090px] md:h-[613px] ' /> </div>
 
-                {/* <div class="" style={{
-                    backgroundImage: `url("imag.png")`,
-                    backgroundSize: 'cover',
-                    // backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center center'
-                }}></div> */}
 
-                <div className='bg-white bg-opacity-75  md:ml-[-55px] md:mt-[110px]  md:h-[370px] text-center '>
+  {/* //////////////////////////text area/////////////////////////////////// */}
 
-                    <div className='  md:mt-[90px] md:ml-[40px]'>
+                <div className='bg-white relative z-10 mt-[-87px] w-[80%] p-3 m-auto bg-opacity-75  md:ml-[-55px] md:mt-[110px]  md:h-[430px] text-center  '>
+
+                    <div className='  md:mt-[90px] md:ml-[40px]  '>
 
                         <p className='md:text-[30px] md:font-[200]'>Get personalised home interiors </p>
                         <p className='md:text-[40px] md:font-[600] md:mb-[10px]'>in just 50 days</p>
-                        <button className='bg-[#4B2A63] cursor-pointer text-[white] text-[20px] font-[600] md:p-2'>SPEAK WITH A ONLINE CONSULTANT</button>
+                        <button className='bg-[#4B2A63] cursor-pointer text-[white] md:text-[20px] md:font-[600] md:p-2 text-[13px] font-[400] p-1 '>SPEAK WITH A ONLINE CONSULTANT</button>
 
                     </div>
                 </div>

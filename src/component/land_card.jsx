@@ -19,12 +19,13 @@ const land_card = (props) => {
         <div className={combinedClasses}>
             <div className=''>
 
-                <div className='flex justify-center'><img src={props.imagesr} alt="" className=''/></div>
-                <div className=' flex justify-center  text-center w-[120px] '>{props.text}</div>
+                <div className='md:flex md:justify-center'><img src={props.imagesr} alt="" className=''/></div>
+                <div className=' w-[80px] ml-[-22px] mt-[3px] text-[12px] text-center  flex justify-center  md:text-center md:w-[150px] md:text-[24px] '>{props.text}</div>
+                {/* mt-[8px] text-[12px] flex justify-center text-center w-[80px] ml-[-20px]  md:flex md:justify-center  md:text-center md:w-[120px] md:text-[24px] */}
 
             </div>
             
-
+            {/* md:flex md:justify-center */}
            
         </div>
     )

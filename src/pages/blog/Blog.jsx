@@ -18,7 +18,7 @@ const Blog = () => {
 
                   <p className='md:text-[36px] md:font-[500]'>Blogs</p>
 
-                  <div className=' md:flex  mt-[3%] '>
+                  <div className=' md:flex  md:mt-[3%] '>
 
                         <BlogCard clas={textWidth} imgeWid={imgeWidth} imgUrl={img1} text='Modern Interior' para='Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,' />
                         <BlogCard clas={textWidth} imgeWid={imgeWidth} imgUrl={img2} text='Exterior Project' para='Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,' />
