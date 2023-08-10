@@ -7,17 +7,18 @@ const WhatWeDo = () => {
     const image3 = '/images/whatImage3.png'
     const image4 = '/images/whatImage4.png'
 
-    const img1Width = 'w-[150px]  md:ml-[25px] '
+    const img1Width = 'w-[75%] mx-auto sm:mx-0 m-[10px] sm:m-0 md:w-full  md:ml-[25px] '
+    // w-[110px] mx-auto sm:mx-0 m-[10px]
 
     return (
 
-        <div className='  md:mt-[10%] font-popins '>
-
-            <div className='md:text-[36px]  md:font[500] md:text-center'>
+        <div className=' mt-[10%]  md:mt-[10%] font-popins '>
+ {/* mx-[64px] text-[18px] */}
+            <div className=' w-[70%] text-start text-[18px] mx-auto sm:mx-0 md:w-auto md:text-[36px] font-[500] md:text-center'>
                 <p>What We Do?</p>
             </div>
-
-            <div className='grid grid-cols-2 mx-auto w-[90%]  md:flex md:justify-around text-center md:m-[8%] '>
+            {/* mx-auto  w-[90%] mt-[5%] sm:mx-0 */}
+            <div className='grid grid-cols-2  mx-auto  mt-[5%] w-[90%] sm:w-auto  md:flex md:justify-around text-center md:m-[8%] '>
                 <WhatWeDoCards classes={img1Width} imgeUrl={image1} text='Modular Kitchen' />
                 <WhatWeDoCards classes={img1Width} imgeUrl={image2} text='Bedroom' />
                 <WhatWeDoCards classes={img1Width} imgeUrl={image3} text='Living room' />

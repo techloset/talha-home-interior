@@ -16,13 +16,13 @@ const LandInteriors = () => {
   // const textt = 'w-[50px]' 
 
   return (
-    <div className='md:mt-[10%] mt-[10%]'>
+    <div className='  md:mt-[10%] mt-[10%]'>
 
       <div className="font-popins md:flex md:justify-center md:text-[36px] font-[500] text-center text-[26px] ">
         <h2>  Why Land Interiors </h2>
       </div>
 
-      <div className=' flex justify-around items-center mt-[10%] md:p-3 md:mt-8 ' >
+      <div className=' flex justify-around items-center mt-[5%] md:p-3 md:mt-8 ' >
         <LandCard classess={tailwindClasses} imgh={img1Width1} text="50 days or we pay you rent " imagesr={imageuurl} />
         <LandCard classess={tailwindClasses} imgh={img1Width2} text="1500+happy Customer " imagesr={imageurl} />
         <LandCard classess={tailwindClasses} imgh={img1Width3} text="300+ design experties " imagesr={imageUrl} />

@@ -17,7 +17,7 @@ const land_card = (props) => {
         // </div>
 
         <div className={combinedClasses}>
-            <div className=''>
+            <div className='md:mt-10'>
 
                 <div className='md:flex md:justify-center'><img src={props.imagesr} alt="" className=''/></div>
                 <div className=' w-[80px] ml-[-22px] mt-[3px] text-[12px] text-center  flex justify-center  md:text-center md:w-[150px] md:text-[24px] '>{props.text}</div>

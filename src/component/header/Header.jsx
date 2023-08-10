@@ -5,7 +5,7 @@ import image1 from '../../assets/imag.png'
 
 const Header = () => {
     return (
-        <div>
+        <div className='h-[100vh]'> 
 
             <div className=' md:h-[274px] font-popins '>
 
@@ -47,7 +47,7 @@ const Header = () => {
 
             <div className='md:grid md:grid-cols-2 mt-[30px]'>
 
-                <div className='relative z-0 '> <img src={image1} alt="" className=' md:w-[1090px] md:h-[613px] ' /> </div>
+                <div className='relative z-0 '> <img src={image1} alt="" className=' md:w-[1090px] md:h-[613px] h-[390px]' /> </div>
 
 
   {/* //////////////////////////text area/////////////////////////////////// */}
