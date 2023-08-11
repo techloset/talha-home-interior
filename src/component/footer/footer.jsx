@@ -51,7 +51,7 @@ const footer = () => {
                     <p className=' md:w-[200px]  md:mt-8 text-[#4F4F4F]  md:text-[18px] md:font-[500] '>landinteriors@gmail.com
                         +91 98987 65656</p>
 
-                    <ul className='flex justify-evenly gap-3 md:mt-[120px]'>
+                    <ul className='flex justify-evenly gap-3 md:mt-[120px] md:text-[18px]'>
                         <li>About</li>
                         <li>Projects</li>
                         <li>Studio</li>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const interDesignProduct = () => {
     return (
-        <div className=' mt-[10%]  md:mt-[10%]font-popins bg-green-500'>
+        <div className=' mt-[10%]  md:mt-[10%] font-popins '>
 
             {/* heading */}
             <div className='ml-[24px] sm:ml-[70px] md::ml-0 md:text-center text-[18px] sm:text-[28px]  font-popins md:text-[36px] font-[500]'>
@@ -10,7 +10,7 @@ const interDesignProduct = () => {
             </div>
 
             {/* images  */}
-            <div className=' bg-blue-500 mx-6 sm:mx-auto sm:w-[80%] grid grid-cols-2 mt-[5%] md:grid md:grid-cols-4 gap-1   md:mt-[5%] '>
+            <div className='  mx-6 sm:mx-auto sm:w-[80%] grid grid-cols-2 mt-[5%] md:grid md:grid-cols-4 gap-1   md:mt-[5%] '>
 
                 <div className=' '>
                     <img className=' h-[125px]  w-full  sm:h-[163.5px] ' src="/images/intDesPro1.png" alt="" />

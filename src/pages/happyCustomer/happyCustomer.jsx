@@ -33,7 +33,7 @@ const happyCustomer = () => {
 
 
 
-            <div className=' absolute w-[70%] left-11 sm:static  z-10 mt-[-140px]   bg-blue-500 md:w-[50%]  md:mt-[-100px] md:m-auto md:text-center'>
+            <div className=' absolute w-[70%] left-11 sm:static  z-10 mt-[-140px]   bg-white md:w-[50%]  md:mt-[-100px] lg:mt-[-140px] md:m-auto md:text-center'>
 
                 <img className=' mt-[-20px]  h-[40px] md:h-[78px] md:mt-[-35px] m-auto ' src="/images/happyCustomer4.png" alt="" />
 

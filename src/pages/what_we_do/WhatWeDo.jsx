@@ -14,7 +14,7 @@ const WhatWeDo = () => {
 
         <div className=' mt-[10%] sm:mx-8 md:mx-0   md:mt-[10%] font-popins '>
 
-            <div className=' w-[70%] text-start text-[18px] mx-auto sm:mx-0 sm:text-[30px]    md:w-auto md:text-[36px] font-[500] md:text-center'>
+            <div className=' w-[70%] text-start text-[18px] mx-auto sm:mx-0 sm:text-[30px]    md:w-auto md:text-[30px] lg:text-[36px] font-[500] md:text-center'>
                 <p>What We Do?</p>
             </div>
 
