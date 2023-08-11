@@ -30,7 +30,7 @@ const Header = () => {
 
                 </div>
 
-                <div className=' hidden md:grid md:grid-cols-1 text-[20px] font-[400] leading-8 mt-[20px]'>
+                <div className=' hidden md:grid md:grid-cols-1 text-[20px]  font-[400] leading-8 mt-[20px]'>
 
                     <div className='grid md:gird-cols-5 gap-10 grid-flow-col  m-auto '  >
                         <div className=''> About</div>
@@ -57,8 +57,8 @@ const Header = () => {
                     <div className='sm:mt-[15px]  md:mt-[90px] md:ml-[40px]  '>
 
                         <p className='md:text-[30px] md:font-[200] sm:text-[22px] sm:font-[400] '>Get personalised home interiors </p>
-                        <p className='md:text-[40px] md:font-[600] md:mb-[10px] sm:text-[22px] sm:font-[600]'>in just 50 days</p>
-                        <button className='bg-[#4B2A63] cursor-pointer text-[white] md:text-[20px] md:font-[600] sm:p-2 text-[13px] sm:text-[16px] font-[400] p-1  '>SPEAK WITH A ONLINE CONSULTANT</button>
+                        <p className='lg:text[48px] md:text-[40px] md:font-[600] md:mb-[10px] sm:text-[22px] sm:font-[600]'>in just 50 days</p>
+                        <button className='bg-[#4B2A63] lg:p-6 cursor-pointer text-[white] md:text-[20px] md:font-[600] sm:p-2 text-[13px] sm:text-[16px] font-[400] p-1  '>SPEAK WITH A ONLINE CONSULTANT</button>
 
                     </div>
 

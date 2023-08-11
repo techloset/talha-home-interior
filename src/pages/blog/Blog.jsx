@@ -17,8 +17,10 @@ const Blog = () => {
 
             <div className='md:mx-8  mt-[10%] font-popins'>
 
-                  <p className=' mx-5 md:mx-0 text-[20px]  md:text-[36px] font-[500]'>Blogs</p>
+                  {/* heding */}
+                  <p className=' mx-5 md:mx-0 text-[20px]  md:text-[36px] font-[500] lg:mx-4'>Blogs</p>
 
+                  {/* cards div  */}
                   <div className=' flex mt-[3%] mx-5 md:mx-0 overflow-x-hidden'>
 
                         <BlogCard clas={textWidth} imgeWid={imgeWidth} imgUrl={img1} text='Modern Interior' para='Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,' />
@@ -28,6 +30,8 @@ const Blog = () => {
                         <BlogCard clas={textWidth} imgeWid={imgeWidth} imgUrl={img5} text='Role of furnitures' para='Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,' />
 
                   </div>
+
+                  {/* button */}
                   <button className=' hidden   md:flex md:justify-center md:m-auto bg-[#4B2A63] md:p-3 md:w-[25%] md:text-[20px] md:text-[600] text-white md:mt-[5%]'>View All</button>
             </div>
       )

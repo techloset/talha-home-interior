@@ -33,11 +33,11 @@ const happyCustomer = () => {
 
 
 
-            <div className=' absolute w-[70%] left-11 sm:static  z-10 mt-[-140px]   bg-white md:w-[50%]  md:mt-[-100px] lg:mt-[-140px] md:m-auto md:text-center'>
+            <div className=' absolute w-[70%] left-11 sm:left-[15%] md:static  z-10 mt-[-140px]   bg-white md:w-[50%]  md:mt-[-100px] lg:mt-[-140px] md:m-auto md:text-center'>
 
-                <img className=' mt-[-20px]  h-[40px] md:h-[78px] md:mt-[-35px] m-auto ' src="/images/happyCustomer4.png" alt="" />
+                <img className=' mt-[-20px]  h-[40px] sm:h-[60px] md:h-[78px] md:mt-[-35px] m-auto ' src="/images/happyCustomer4.png" alt="" />
 
-                <p className='hidden sm:block   md:text-[14px] lg:text-[20px] lg:font-[400] md:w-[80%] md:m-auto '>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <p className='hidden md:block   md:text-[14px] lg:text-[20px] lg:font-[400] md:w-[80%] md:m-auto '>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Culpa ipsam iusto maxime molestias? Sint nam illo molestiae deserunt
                     necessitatibus esse consectetur porro
                     recusandae numquam tenetur, corrupti asperiores aut! Ipsum, libero.</p>
