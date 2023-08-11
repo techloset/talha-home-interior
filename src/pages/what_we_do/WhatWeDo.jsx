@@ -7,30 +7,30 @@ const WhatWeDo = () => {
     const image3 = '/images/whatImage3.png'
     const image4 = '/images/whatImage4.png'
 
-    const img1Width = 'w-[75%] mx-auto sm:mx-0 m-[10px] sm:m-0 md:w-full  md:ml-[25px] '
-    // w-[110px] mx-auto sm:mx-0 m-[10px]
+    const img1Width = 'w-[75%] mx-auto m-[10px] md:mx-0 md:w-full md:mx-0  md:ml-[25px] '
+   
 
     return (
 
-        <div className=' mt-[10%]  md:mt-[10%] font-popins '>
- {/* mx-[64px] text-[18px] */}
-            <div className=' w-[70%] text-start text-[18px] mx-auto sm:mx-0 md:w-auto md:text-[36px] font-[500] md:text-center'>
+        <div className=' mt-[10%] sm:mx-8 md:mx-0   md:mt-[10%] font-popins '>
+
+            <div className=' w-[70%] text-start text-[18px] mx-auto sm:mx-0 sm:text-[30px]    md:w-auto md:text-[36px] font-[500] md:text-center'>
                 <p>What We Do?</p>
             </div>
-            {/* mx-auto  w-[90%] mt-[5%] sm:mx-0 */}
-            <div className='grid grid-cols-2  mx-auto  mt-[5%] w-[90%] sm:w-auto  md:flex md:justify-around text-center md:m-[8%] '>
+
+            <div className=' grid grid-cols-2 text-center mx-auto  mt-[5%] w-[90%] sm:w-auto   md:flex md:justify-around  md:m-[5%] '>
                 <WhatWeDoCards classes={img1Width} imgeUrl={image1} text='Modular Kitchen' />
                 <WhatWeDoCards classes={img1Width} imgeUrl={image2} text='Bedroom' />
                 <WhatWeDoCards classes={img1Width} imgeUrl={image3} text='Living room' />
                 <WhatWeDoCards classes={img1Width} imgeUrl={image4} text='Home office' />
             </div>
 
-            
-                <p className='hidden sm:block md:text-center md:w-[75%] md:m-auto md:text-[18px] md:font-[400] '>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,
-                    vel fringilla est ullamcorper eget nulla
-                </p>
-            
+
+            <p className='hidden md:block md:text-center md:w-[75%] md:m-auto md:text-[18px] md:font-[400] '>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,
+                vel fringilla est ullamcorper eget nulla
+            </p>
+
         </div>
     )
 }

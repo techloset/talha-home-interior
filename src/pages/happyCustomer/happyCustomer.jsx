@@ -16,13 +16,13 @@ const happyCustomer = () => {
 
                 </div>
 
-                <div className='hidden sm:block md:col-span-8 '>
+                <div className='hidden md:block md:col-span-8 '>
                     <img className='hidden sm:block  ' src="/images/happyCutomer1.png" alt="" />
 
 
                 </div>
                 <div className='md:hidden  '>
-                    <img className='h-full w-[90%] mx-auto' src="/images/happyCustomerMobile.png" alt="" />
+                    <img className='h-[200px] w-[90%]  mx-auto' src="/images/happyCustomerMobile.png" alt="" />
 
 
                 </div>
@@ -33,7 +33,7 @@ const happyCustomer = () => {
 
 
 
-            <div className=' absolute w-[75%] left-14 sm:static  z-10 mt-[-100px]   bg-white md:w-[50%]  md:mt-[-100px] md:m-auto md:text-center'>
+            <div className=' absolute w-[70%] left-11 sm:static  z-10 mt-[-140px]   bg-blue-500 md:w-[50%]  md:mt-[-100px] md:m-auto md:text-center'>
 
                 <img className=' mt-[-20px]  h-[40px] md:h-[78px] md:mt-[-35px] m-auto ' src="/images/happyCustomer4.png" alt="" />
 
@@ -46,7 +46,7 @@ const happyCustomer = () => {
                 <p className=' md:hidden p-5  w-[80%] mx-auto  text-[10px]  text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, 
                 lectus magna fringilla urna, porttitor</p>
 
-                <p className='text-[14px] text-center font-[600] md:text-[20px] lg:text-[22px]'>-Jeo Stanlee</p>
+                <p className='text-[14px] text-center mt-[-10px] md:mt-[0px] font-[600] md:text-[20px] lg:text-[22px]'>-Jeo Stanlee</p>
             </div>
 
         </div>

@@ -3,20 +3,27 @@ import React from 'react'
 
 const footer = () => {
     return (
-        <div className=''>
+        <div className=' bg-[#F8F8F8] sm:bg-white mt-[5%]  md:mt-[10%]'>
 
             <div className='md:grid md:grid-cols-12'>
 
-                <div className='md:col-span-5 md:mx-10'>
-                    <img className='md:w-[100px] md:ml-[-25px]' src='/images/Artboard.png' alt="" />
+                <div className=' w-[80%]  mx-auto   md:col-span-5 md:mx-10'>
+                    <img className='  w-[25%]  m-auto md:mx-0  md:w-[100px] md:ml-[-25px]' src='/images/Artboard.png' alt="" />
 
-                    <p className='md:text-[16px] lg:text-[18px] text-[#3D3D3D] font-[400] md:mt-[20px]' >We introduce our selves as  LAND Interior and Architectural
+                    <p className=' hidden md:block  md:text-[16px] lg:text-[18px] text-[#3D3D3D] font-[400] md:mt-[20px]' >We introduce our selves as  LAND Interior and Architectural
                         Design Consultancy – one of the best interior designers in Chennai.
                         Chennai Luxury Interior and Architectural Design Consultancy has challenged
                         the  conventional way of interior designing and given nw dimensions to the
                         art of interior designing.</p>
 
-                    <div className='md:flex md:justify-around md:mt-7'>
+                    {/* Small devices content  */}
+                    <div className=' w-[35%]  mx-auto  md:hidden'>
+                        <p className='mt-[10px] text-[12px] sm:text-[16px]'>landinteriors@gmail.com</p>
+                        <p className='mt-[5px] text-[10px] sm:text-[14px] '>+91 98987 65656</p>
+                    </div>
+
+                    {/* social links */}
+                    <div className='mt-2 sm:mt-4  flex justify-around md:mt-7'>
                         <img className='w-[29px] h-[29px] ' src="/images/facebook.png" alt="" />
                         <img className='w-[29px] h-[29px]' src="/images/inkedin.png" alt="" />
                         <img className='w-[29px] h-[29px]' src="/images/twitter.png" alt="" />
@@ -24,9 +31,9 @@ const footer = () => {
                         <img className='w-[29px] h-[29px]' src="/images/instagram.png" alt="" />
                     </div>
                 </div>
+                {/*2rd column above SMALL DEVICES */}
 
-
-                <div className=' md:col-span-2 '>
+                <div className='hidden md:block  md:col-span-2 '>
                     <p className=' md:text-[16px]  font-[600] md:mt-14'> WHAT WE DO</p>
                     <ul className='md:mt-8 md:text-[18px] font-[500]  text-[#4F4F4F]'>
                         <li>Interior Design</li>
@@ -36,8 +43,8 @@ const footer = () => {
                         <li>Smart Home</li>
                     </ul>
                 </div>
-
-                <div className=' md:col-span-5 md:mx-14 '>
+                {/* 3rd column above SMALL DEVICES */}
+                <div className='hidden md:block  md:col-span-5 md:mx-14 '>
 
                     <p className='md:text-[16px] md:font-[600] md:mt-14'>Get in touch</p>
 

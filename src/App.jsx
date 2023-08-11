@@ -21,8 +21,8 @@ const App = () => {
       <Blog/>
       <InterDesignProduct/>
       <HappyCustomer/>
-      {/* <DreamHome/> */}
-      {/* <Footer/> */}
+      <DreamHome/>
+      <Footer/>
     </div>
   )
 }
