@@ -15,7 +15,7 @@ const Blog = () => {
 
       return (
 
-            <div className='md:mx-8  mt-[10%] '>
+            <div className='md:mx-8  mt-[10%] font-popins'>
 
                   <p className=' mx-5 md:mx-0 text-[20px]  md:text-[36px] font-[500]'>Blogs</p>
 

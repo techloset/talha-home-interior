@@ -24,7 +24,7 @@ const ourProjects = () => {
                 <div className='col-span-12  md:ml-[-32px] md:col-span-6 md:h-[450px]  bg-white bg-opacity-75  md:z-10  font-popins md:text-center  md:p-3 md:mt-[5%]' >
                     <div className='md:w-full md:m-auto md:mt-[6%]'>
 
-                        <p className='hidden md::block  md:text-[36px] text-[#241330] font-[500] '>Our Projects</p>
+                        <p className='hidden md:block  md:text-[36px] text-[#241330] font-[500] '>Our Projects</p>
                         <p className='text-start text-[15px] mt-[6%]   md:w-[100%] md:text-center md:m-[5%] md:mt-[10%] md:text-[18px] font-[400]'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna,
                             porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla</p>

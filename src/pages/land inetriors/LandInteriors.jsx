@@ -16,7 +16,7 @@ const LandInteriors = () => {
   // const textt = 'w-[50px]' 
 
   return (
-    <div className='  md:mt-[10%] mt-[10%]'>
+    <div className='  md:mt-[10%] mt-[10%] font-popins'>
 
       <div className="font-popins md:flex md:justify-center md:text-[36px] font-[500] text-center text-[26px] sm:text-[30px]">
         <h2>  Why Land Interiors </h2>
@@ -37,7 +37,7 @@ const LandInteriors = () => {
 
 
           <p className='text-[13px] mt-[8%] sm:text-[20px] sm:mt-[5%]  md:text-[24px] md:mt-[5%] md:w-[300px]  md:-ml-[-45px] lg:text-[30px] font-[500]  lg:w-[80%] lg:ml-[50px]'>Make your dream interior in</p>
-          <p className='text-[16px] mt-[6%] sm:text-[26px] sm:mt-[3%]  w-[80%] mx-auto  md:text-[34px] lg:text-[44px] font-[700] md:mt-[4%]  text-[#241330]   md:w-[300px] md:-ml-[-45px] lg:w-[400px] lg:ml-[50px]' >3 easy steps</p>
+          <p className='text-[16px] mt-[6%] sm:text-[26px] sm:mt-[3%]  w-[80%] mx-auto  md:text-[30px] lg:text-[44px] font-[700] md:mt-[4%]  text-[#241330]   md:w-[300px] md:-ml-[-45px] lg:w-[400px] lg:ml-[50px]' >3 easy steps</p>
           <p className='text-[14px] mt-[10%] sm:text-[20px] sm:mt-[3%] md:text-[26px] lg:text-[36px] font-[600] md:mt-[20%]  lg:mt-[8%] text-[#4B2A63]  md:w-[300px] md:-ml-[-45px] lg:w-[400px] lg:ml-[50px]' >Explore</p>
           <p className='text-[12px] mt-[3%] sm:text-[13px] sm:mt-[3%]  w-[80%] mx-auto  md:text-[14px] lg:text-[18px] font-[400] md:mt-[1%]  md:w-[300px] md:-ml-[-45px]  lg:w-[400px] lg:ml-[50px]' >Explore more than just modular design ideas with our experts.</p>
           <p className='text-[14px] mt-[8%] sm:text-[20px] sm:mt-[3%]  md:text-[26px] lg:text-[36px] font-[600] md:mt-[20%] lg:mt-[8%]  text-[#4B2A63]  md:w-[300px] md:-ml-[-45px] lg:w-[400px] lg:ml-[50px]'>Design</p>
