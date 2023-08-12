@@ -17,7 +17,7 @@ const Blog = () => {
             initialSlide: 0,
             responsive: [
                   {
-                        breakpoint: 1440,
+                        breakpoint: 1535,
                         settings: {
                               slidesToShow: 4,
                               slidesToScroll: 2,

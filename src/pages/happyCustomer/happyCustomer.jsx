@@ -12,12 +12,12 @@ const happyCustomer = () => {
 
             <div className='realtive  z-0 md:grid md:grid-cols-12 md:text-center md:mt-[3%]' >
 
-                <div className='hidden md:block md:col md:col-span-2'>
-                <img className='hidden sm:block  ' src="/images/happyCustomer3.png" alt="" />
+                <div className='hidden md:block  md:col-span-2'>
+                    <img className=' w-full h-[420px] ' src="/images/happyCustomer3.png" alt="" />
                 </div>
 
                 <div className='hidden md:block md:col-span-8 '>
-                    <img className='hidden sm:block  ' src="/images/happyCutomer1.png" alt="" />
+                    <img className=' w-full h-[420px] ' src="/images/happyCutomer1.png" alt="" />
 
 
                 </div>
@@ -28,11 +28,11 @@ const happyCustomer = () => {
 
                 </div>
 
-                <div className='hidden md:block md:col md:col-span-2 '>
-                <img className='hidden sm:block  ' src="/images/happyCutomer2.png" alt="" />
+                <div className='hidden md:block  md:col-span-2 '>
+                    <img className=' w-full h-[420px] ' src="/images/happyCutomer2.png" alt="" />
 
                 </div>
-               
+
 
             </div>
 
@@ -48,8 +48,8 @@ const happyCustomer = () => {
                     recusandae numquam tenetur, corrupti asperiores aut! Ipsum, libero.</p>
 
 
-                <p className=' md:hidden p-5  w-[80%] mx-auto  text-[10px]  text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, 
-                lectus magna fringilla urna, porttitor</p>
+                <p className=' md:hidden p-5  w-[80%] mx-auto  text-[10px]  text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
+                    lectus magna fringilla urna, porttitor</p>
 
                 <p className='text-[14px] text-center mt-[-10px] md:mt-[0px] font-[600] md:text-[20px] lg:text-[22px]'>-Jeo Stanlee</p>
             </div>
