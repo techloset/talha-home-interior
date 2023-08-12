@@ -12,8 +12,8 @@ const happyCustomer = () => {
 
             <div className='realtive  z-0 md:grid md:grid-cols-12 md:text-center md:mt-[3%]' >
 
-                <div className='bg-blue-500 md:col-span-2'>
-
+                <div className='hidden md:block md:col md:col-span-2'>
+                <img className='hidden sm:block  ' src="/images/happyCustomer3.png" alt="" />
                 </div>
 
                 <div className='hidden md:block md:col-span-8 '>
@@ -21,13 +21,18 @@ const happyCustomer = () => {
 
 
                 </div>
+                {/* mobile background image */}
                 <div className='md:hidden  '>
                     <img className='h-[200px] w-[90%]  mx-auto' src="/images/happyCustomerMobile.png" alt="" />
 
 
                 </div>
 
-                <div className='md:col-span-2 bg-yellow-500'></div>
+                <div className='hidden md:block md:col md:col-span-2 '>
+                <img className='hidden sm:block  ' src="/images/happyCutomer2.png" alt="" />
+
+                </div>
+               
 
             </div>
 
