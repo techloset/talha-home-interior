@@ -5,9 +5,9 @@ import image1 from '../../assets/imag.png'
 
 const Header = () => {
     return (
-        <div className=''> 
+        <div className=' '> 
 
-            <div className=' md:h-[274px] font-popins '>
+            <div className=' md:h-[274px] bg-[#F8F8F8] font-popins '>
 
                 <div className='   md:grid md:grid-cols-2 md:gap-1 flex justify-between mx-2'>
 
