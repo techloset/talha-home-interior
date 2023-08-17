@@ -17,7 +17,7 @@ const Blog = () => {
             initialSlide: 0,
             responsive: [
                   {
-                        breakpoint: 1535,
+                        breakpoint: 2520,
                         settings: {
                               slidesToShow: 4,
                               slidesToScroll: 2,
@@ -57,17 +57,17 @@ const Blog = () => {
       return (
 
 
-            <div className='  mt-[10%]  mx-8'>
+            <div className='  mt-[10%]  mx-8 lg:mx-20'>
 
-                  <p className=' md:mx-0 text-[20px]  md:text-[36px] font-[500] lg:mx-4'>Blogs</p>
+                  <p className=' md:mx-0 text-[20px]  md:text-[36px] font-[500] '>Blogs</p>
                   <Slider {...settings}>
                         {
                               dataDigitalBestSeller.map((item) => (
 
                                     <div className=' overflow-x:hidden'>
 
-                                          <div className='mt-[15px]'>
-                                                <img className=' h-[120px] mr-[160px] md:mr-0  md:p-[5px] md:w-[300px] md:h-[200px]   ' src={item.linkImg} alt="" />
+                                          <div className='mt-[15px]  '>
+                                                <img className=' h-[120px] mr-[160px] md:mr-0  md:p-[5px] md:w-[300px] md:h-[200px] lg:w-[330px] lg:h-[333px] ' src={item.linkImg} alt="" />
                                           </div>
                                           <div className=' mt-[10px] '>
                                                 <h1 className=' md:h-[60px]  md:w-[80%] h-[30px] md:text-[18px] lg:text-[24px] font-[500] md:mt-[8%]'>{item.title}</h1>
@@ -79,7 +79,7 @@ const Blog = () => {
                               ))
                         }
                   </Slider>
-                  <button className=' hidden   md:flex md:justify-center md:m-auto bg-[#4B2A63] md:p-3 md:w-[25%] md:text-[20px] md:text-[600] text-white md:mt-[5%]'>View All</button>
+                  <button className=' hidden   md:flex md:justify-center md:m-auto bg-[#4B2A63] md:p-3 lg:p-6 lg:font-[600] md:w-[25%] md:text-[17px] md:text-[400] text-white md:mt-[5%]  lg:w-[270px] lg:h-[80px] lg:text-24px '>View All</button>
             </div>
       )
 }

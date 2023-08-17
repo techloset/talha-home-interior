@@ -6,18 +6,18 @@ const happyCustomer = () => {
 
             <div class=' mx-5  md:text-center '>
                 <p className=' text-[18px]  md:text-[36px] font-[500] md:m-8'>Our Happy Customers</p>
-                <p className=' text-[12px] mt-[10px]  md:w-[60%] md:m-auto md:text-[15px] lg:text-[18px] md:font-[400]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                <p className='lg:w-[755px] text-[12px] mt-[10px]  md:w-[60%] md:m-auto md:text-[15px] lg:text-[18px] md:font-[400]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
                     luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim</p>
             </div>
 
             <div className='realtive  z-0 md:grid md:grid-cols-12 md:text-center md:mt-[3%]' >
 
-                <div className='hidden md:block  md:col-span-2'>
-                    <img className=' w-full h-[420px] ' src="/images/happyCustomer3.png" alt="" />
+                <div className='hidden md:block  md:col-span-2 lg:mr-[60px] lg:m-auto'>
+                    <img className=' w-full h-[420px] lg:w-[825px] lg:h-[446px]' src="/images/happyCustomer3.png" alt="" />
                 </div>
 
                 <div className='hidden md:block md:col-span-8 '>
-                    <img className=' w-full h-[420px] ' src="/images/happyCutomer1.png" alt="" />
+                    <img className=' w-full h-[420px] lg:w-[1228px] lg:h-[536px] ' src="/images/happyCutomer1.png" alt="" />
 
 
                 </div>
@@ -28,8 +28,8 @@ const happyCustomer = () => {
 
                 </div>
 
-                <div className='hidden md:block  md:col-span-2 '>
-                    <img className=' w-full h-[420px] ' src="/images/happyCutomer2.png" alt="" />
+                <div className='hidden md:block  md:col-span-2  lg:m-auto '>
+                    <img className=' w-full h-[420px] lg:w-[825px] lg:h-[446px]' src="/images/happyCutomer2.png" alt="" />
 
                 </div>
 
@@ -38,7 +38,7 @@ const happyCustomer = () => {
 
 
 
-            <div className=' absolute w-[70%] left-11 sm:left-[15%] md:static  z-10 mt-[-140px]   bg-white md:w-[50%]  md:mt-[-100px] lg:mt-[-140px] md:m-auto md:text-center'>
+            <div className=' absolute w-[70%] left-11 sm:left-[15%] md:static  z-10 mt-[-140px]   bg-white lg:w-[738px] lg:h-[258px] lg:mt-[-205px] lg:mx-[28%] md:w-[50%]  md:mt-[-100px] md:m-auto md:text-center'>
 
                 <img className=' mt-[-20px]  h-[40px] sm:h-[60px] md:h-[78px] md:mt-[-35px] m-auto ' src="/images/happyCustomer4.png" alt="" />
 
