@@ -7,18 +7,18 @@ const WhatWeDo = () => {
     const image3 = '/images/whatImage3.png'
     const image4 = '/images/whatImage4.png'
 
-    const img1Width = 'w-[75%] mx-auto m-[10px] md:mx-0 md:w-full md:mx-0  md:ml-[25px] lg:w-[286px] lg:h-[340px]  '
-   
+    const img1Width = 'w-[75%] mx-auto m-[10px]  lg:mx-0  lg:w-[286px] lg:h-[340px]  '
+
 
     return (
 
-        <div className=' mt-[10%] sm:mx-8 md:mx-0   md:mt-[10%] font-popins bg-green-500'>
+        <div className=' mt-[10%] sm:mx-8 lg:mx-0   lg:mt-[10%] font-popins bg-green-500'>
 
-            <div className=' w-[70%] text-start text-[18px] mx-auto sm:mx-0 sm:text-[30px]    md:w-auto md:text-[30px] lg:text-[36px] font-[500] md:text-center'>
+            <div className=' w-[70%] text-start text-[18px] mx-auto sm:mx-0 sm:text-[30px]    lg:w-auto lg:text-[36px] font-[500] lg:text-center'>
                 <p>What We Do?</p>
             </div>
 
-            <div className=' bg-blue-500 grid grid-cols-2 text-center mx-auto  mt-[5%] w-[90%] sm:w-auto lg:mx-[72px]   md:flex md:justify-around  md:m-[5%]  '>
+            <div className=' bg-blue-500 grid grid-cols-2 text-center mx-auto  mt-[5%] w-[90%] sm:w-auto lg:mx-[72px]   lg:flex lg:justify-around  lg:m-[5%]  '>
                 <WhatWeDoCards classes={img1Width} imgeUrl={image1} text='Modular Kitchen' />
                 <WhatWeDoCards classes={img1Width} imgeUrl={image2} text='Bedroom' />
                 <WhatWeDoCards classes={img1Width} imgeUrl={image3} text='Living room' />
@@ -26,7 +26,7 @@ const WhatWeDo = () => {
             </div>
 
 
-            <p className='hidden md:block md:text-center md:w-[75%] md:m-auto md:text-[18px] md:font-[400] lg:w-[1041px] lg:h-[144px] '>
+            <p className='hidden lg:block lg:text-center  lg:m-auto lg:text-[18px] md:font-[400] lg:w-[1041px] lg:h-[144px] '>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,
                 vel fringilla est ullamcorper eget nulla
             </p>

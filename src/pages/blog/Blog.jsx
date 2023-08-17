@@ -59,7 +59,7 @@ const Blog = () => {
 
             <div className='  mt-[10%]  mx-8 lg:mx-20'>
 
-                  <p className=' md:mx-0 text-[20px]  md:text-[36px] font-[500] '>Blogs</p>
+                  <p className=' text-[20px]  lg:text-[36px] font-[500] '>Blogs</p>
                   <Slider {...settings}>
                         {
                               dataDigitalBestSeller.map((item) => (
@@ -67,11 +67,11 @@ const Blog = () => {
                                     <div className=' overflow-x:hidden'>
 
                                           <div className='mt-[15px]  '>
-                                                <img className=' h-[120px] mr-[160px] md:mr-0  md:p-[5px] md:w-[300px] md:h-[200px] lg:w-[330px] lg:h-[333px] ' src={item.linkImg} alt="" />
+                                                <img className=' h-[120px] mr-[160px] lg:w-[330px] lg:h-[333px] ' src={item.linkImg} alt="" />
                                           </div>
                                           <div className=' mt-[10px] '>
-                                                <h1 className=' md:h-[60px]  md:w-[80%] h-[30px] md:text-[18px] lg:text-[24px] font-[500] md:mt-[8%]'>{item.title}</h1>
-                                                <h1 className=' w-[80%] text-[14px]  md:w-[90%] md:text-start  md:text-[14px] md:font-[400] md:mt-[4%] lg:text-[20px] '>{item.Desc}</h1>
+                                                <h1 className=' lg:h-[60px]  lg:w-[80%] h-[30px]  lg:text-[24px] font-[500] lg:mt-[8%]'>{item.title}</h1>
+                                                <h1 className=' w-[80%] text-[14px]  lg:w-[90%] lg:text-start  lg:font-[400] lg:mt-[4%] lg:text-[20px] '>{item.Desc}</h1>
                                           </div>
 
                                     </div>
@@ -79,7 +79,7 @@ const Blog = () => {
                               ))
                         }
                   </Slider>
-                  <button className=' hidden   md:flex md:justify-center md:m-auto bg-[#4B2A63] md:p-3 lg:p-6 lg:font-[600] md:w-[25%] md:text-[17px] md:text-[400] text-white md:mt-[5%]  lg:w-[270px] lg:h-[80px] lg:text-24px '>View All</button>
+                  <button className=' hidden   lg:flex lg:justify-center lg:m-auto bg-[#4B2A63]  lg:p-5 lg:font-[600] text-white lg:mt-[5%]  lg:w-[270px] lg:h-[80px] lg:text-[24px] '>View All</button>
             </div>
       )
 }
