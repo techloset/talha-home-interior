@@ -4,12 +4,15 @@ import React from 'react'
 const footer = () => {
     return (
         // bg-[#F8F8F8]
-        <div className='  bg-[#F8F8F8] mt-[5%]   lg:h-[619px]'>
+        <div className=' bg-[#F8F8F8]   mt-[5%]    lg:h-[619px]'>
 
             <div className='lg:grid lg:grid-cols-12'>
 
-                <div className=' w-[80%]  mx-auto lg:col-span-5 lg:mx-10 '>
-                    <img className=' lg:mx-[80px]  w-[25%]  m-auto    lg:ml-[55px] lg:w-[111px] lg:h-[111px] lg:mt-[63px] ' src='/images/Artboard.png' alt="" />
+                <div className=' w-[80%]   mx-auto lg:col-span-5 lg:mx-10 '>
+.
+                   <div className='slg:mt-[20px] '>
+                   <img className='   lg:mx-[80px]  w-[25%]  m-auto    lg:ml-[55px] lg:mt-[63px] sm:w-[111px] sm:h-[111px]  ' src='/images/Artboard.png' alt="" />
+                   </div>
 
                     <p className=' lg:mx-[80px] hidden lg:block   lg:text-[18px] text-[#3D3D3D] font-[400] lg:w-[419px] lg:h-[281px] lg:mt-[30px]' >We introduce our selves as  LAND Interior and Architectural
                         Design Consultancy – one of the best interior designers in Chennai.
@@ -18,18 +21,18 @@ const footer = () => {
                         art of interior designing.</p>
 
                     {/* Small devices content  */}
-                    <div className=' w-[35%]  mx-auto  lg:hidden'>
-                        <p className='mt-[10px] text-[12px] sm:text-[16px]'>landinteriors@gmail.com</p>
-                        <p className='mt-[5px] text-[10px] sm:text-[14px] '>+91 98987 65656</p>
+                    <div className=' w-[35%]  mx-auto  lg:hidden sm:mt-[6%]'>
+                        <p className=' sm:w-[310px] text-center mt-[10px] text-[12px] sm:text-[24px] sm:font-[500] '>landinteriors@gmail.com</p>
+                        <p className=' sm:mt-[3%] sm:w-[310px] text-center mt-[5px] text-[10px] sm:text-[24px] sm:font-[500] sm:ml-[-14px] '>+91 98987 65656</p>
                     </div>
 
                     {/* social links */}
-                    <div className='mt-2 sm:mt-4 lg:mx-[100px]  flex justify-around lg:mt-7  '>
-                        <img className='w-[29px] h-[29px] ' src="/images/facebook.png" alt="" />
-                        <img className='w-[29px] h-[29px]' src="/images/inkedin.png" alt="" />
-                        <img className='w-[29px] h-[29px]' src="/images/twitter.png" alt="" />
-                        <img className='w-[29px] h-[29px]' src="/images/youtube.png" alt="" />
-                        <img className='w-[29px] h-[29px]' src="/images/instagram.png" alt="" />
+                    <div className='mt-2 sm:mt-9 sm:mx-[115px] lg:mx-[100px]  flex justify-around lg:mt-7  '>
+                        <img className='w-[29px] h-[29px]  sm:w-[48px] sm:h-[48px]' src="/images/facebook.png" alt="" />
+                        <img className='w-[29px] h-[29px] sm:w-[48px] sm:h-[48px]' src="/images/inkedin.png" alt="" />
+                        <img className='w-[29px] h-[29px] sm:w-[48px] sm:h-[48px]' src="/images/twitter.png" alt="" />
+                        <img className='w-[29px] h-[29px] sm:w-[48px] sm:h-[48px]' src="/images/youtube.png" alt="" />
+                        <img className='w-[29px] h-[29px] sm:w-[48px] sm:h-[48px]' src="/images/instagram.png" alt="" />
                     </div>
                 </div>
                 {/*2rd column above SMALL DEVICES */}

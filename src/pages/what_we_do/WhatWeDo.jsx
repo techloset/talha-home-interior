@@ -2,23 +2,23 @@ import React from 'react'
 import WhatWeDoCards from '../../component/whatWeDoCards'
 
 const WhatWeDo = () => {
-    const image1 = '/images/whatImage1.png'
+    const image1 = '/images/whatImage1.png '
     const image2 = '/images/whatImage2.png'
     const image3 = '/images/whatImage3.png'
     const image4 = '/images/whatImage4.png'
 
-    const img1Width = 'w-[75%] mx-auto m-[10px]  lg:mx-0  lg:w-[286px] lg:h-[340px]  '
+    const img1Width = 'w-[75%]  m-[10px] sm:mx-auto  lg:mx-0  lg:w-[286px] lg:h-[340px]  '
 
 
     return (
 
-        <div className=' mt-[10%] sm:mx-8 lg:mx-0   lg:mt-[10%] font-popins bg-green-500'>
+        <div className=' mt-[10%] sm:mx-8 lg:mx-0   lg:mt-[10%] font-popinsmedium '>
 
-            <div className=' w-[70%] text-start text-[18px] mx-auto sm:mx-0 sm:text-[30px]    lg:w-auto lg:text-[36px] font-[500] lg:text-center'>
+            <div className=' w-[70%]  slg:mx-[158px] lg:mx-auto text-start text-[18px] mx-auto sm:mx-[110px]     lg:w-auto sm:text-[36px] font-[500] lg:text-center'>
                 <p>What We Do?</p>
             </div>
 
-            <div className=' bg-blue-500 grid grid-cols-2 text-center mx-auto  mt-[5%] w-[90%] sm:w-auto lg:mx-[72px]   lg:flex lg:justify-around  lg:m-[5%]  '>
+            <div className=' grid grid-cols-2 text-center mx-auto sm:w-[80%]   mt-[5%] w-[90%] lg:w-auto lg:mx-[72px]   lg:flex lg:justify-around  lg:m-[5%]  '>
                 <WhatWeDoCards classes={img1Width} imgeUrl={image1} text='Modular Kitchen' />
                 <WhatWeDoCards classes={img1Width} imgeUrl={image2} text='Bedroom' />
                 <WhatWeDoCards classes={img1Width} imgeUrl={image3} text='Living room' />

@@ -29,14 +29,14 @@ const Blog = () => {
                   {
                         breakpoint: 1024,
                         settings: {
-                              slidesToShow: 4,
+                              slidesToShow: 3,
                               slidesToScroll: 2,
                               infinite: true,
                               dots: true
                         }
                   },
                   {
-                        breakpoint: 767,
+                        breakpoint: 720,
                         settings: {
                               slidesToShow: 3,
                               slidesToScroll: 1,
@@ -57,21 +57,21 @@ const Blog = () => {
       return (
 
 
-            <div className='  mt-[10%]  mx-8 lg:mx-20'>
+            <div className='  mt-[10%]  mx-8 lg:mx-20 font-popinsmedium'>
 
-                  <p className=' text-[20px]  lg:text-[36px] font-[500] '>Blogs</p>
+                  <p className=' text-[20px]  sm:ml-[47px] font-popinsMedium sm:text-[36px] font-[500] '>Blogs</p>
                   <Slider {...settings}>
                         {
                               dataDigitalBestSeller.map((item) => (
 
-                                    <div className=' overflow-x:hidden'>
+                                    <div className=' overflow-x:hidden  sm:mx-8 lg:mx-0 sm:mt-[58px]'>
 
                                           <div className='mt-[15px]  '>
-                                                <img className=' h-[120px] mr-[160px] lg:w-[330px] lg:h-[333px] ' src={item.linkImg} alt="" />
+                                                <img className='  h-[120px] mr-[160px] sm:w-[200px] sm:h-[200px] lg:w-[330px] lg:h-[333px] ' src={item.linkImg} alt="" />
                                           </div>
                                           <div className=' mt-[10px] '>
-                                                <h1 className=' lg:h-[60px]  lg:w-[80%] h-[30px]  lg:text-[24px] font-[500] lg:mt-[8%]'>{item.title}</h1>
-                                                <h1 className=' w-[80%] text-[14px]  lg:w-[90%] lg:text-start  lg:font-[400] lg:mt-[4%] lg:text-[20px] '>{item.Desc}</h1>
+                                                <h1 className='  lg:h-[60px]  lg:w-[80%] h-[30px]  lg:text-[24px] font-[500] lg:mt-[8%]'>{item.title}</h1>
+                                                <h1 className='sm:w-[195px] w-[80%] text-[14px]  lg:w-[90%] lg:text-start  lg:font-[400] lg:mt-[4%] lg:text-[20px] '>{item.Desc}</h1>
                                           </div>
 
                                     </div>

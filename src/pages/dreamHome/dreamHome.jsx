@@ -2,26 +2,31 @@ import React from 'react'
 
 const dreamHome = () => {
     return (
-        <div className='mx-8   mt-[20%]  lg:h-[197px] font-popins lg:mt-[8%] lg:mx-60 '>
-
-            <p className=' text-[18px]  lg:text-[36px] font-[400]'>Let talk about your Dream home</p>
-
-            <form action="" className='   mt-[3%] '>
-
-                <input className='flex sm:inline w-[80%] mx-auto border-b-2 border-grey p-1 lg:w-[456px]  outline-none lg:h-[80px]' type="text" placeholder='Name' />
-                <input className='flex  sm:inline mt-[20px] w-[80%] mx-auto  border-b-2 border-grey  p-1 lg:w-[456px] outline-none lg:ml-[151px] lg:h-[80px]' type="text" placeholder='Phone/Email' />
-                {/* <button className='flex items-center p-1 mt-[15px]  justify-center  w-[40%] sm:w-[20%]  bg-[#4B2A63] mx-auto md:ml-[20px] md:w-[14%] md:p-2 sm:text-[18px] md:text-[20px] lg:p-[0]  md:text-[600] lg:text-[24px] lg:w-[270px] lg:h-[80px] text-white cursor-pointer'>
-                    Send
-                </button> */}
-
-                <button className='bg-[#4B2A63] lg:w-[270px] lg:h-[80px] lg:text-[24px] lg:font-[600]   text-white cursor-pointer lg:ml-[42px] '>
-                    Send
-                </button>
-
-
-            </form>
-            
+      <div>
+        .
+        <div className="  font-popinsmedium  my-16  px-6 sm:px-10 md:px-16 ms:px-[140px] vl:px-52 flex flex-col gap-10 vl:gap-[42px] vl:max-w-[1920px] xl:mx-auto">
+      <h2 className=" text-[20px] sm:text-[24px] md:text-[30px] ms:text-[36px]">
+        Let talk about your Dream home
+      </h2>
+      <div className="mx-auto w-full">
+        <div className="flex flex-col xl:flex-row justify-between gap-10 md:gap-14 xl:gap-10">
+          <input
+            type="text"
+            placeholder="Name"
+            className="border-b-[3px] text-[24px] w-full xl:max-w-[35%] p-2 focus-visible:outline-none vl:mr-[100px]"
+          />
+          <input
+            type="text"
+            placeholder="Email/Phone"
+            className="border-b-[3px] text-[24px] w-full xl:max-w-[35%] p-2 focus-visible:outline-none"
+          />
+          <button className="text-[16px] md:text-[20px] xl:text-[24px] font-semibold py-[22px] px-[104px] bg-[#4B2A63] text-white block mx-auto xl:mx-0">
+            Send
+          </button>
         </div>
+      </div>
+    </div>
+    </div>
     )
 }
 
