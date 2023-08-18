@@ -56,7 +56,7 @@ const LandInteriors = () => {
             <p className='slg:mt-[32px] text-[16px] slg:text-[36px]  mt-[20px] text-start  w-[250px] lg:mx-auto text-[#4B2A63]   sm:text-[36px] font-[600] sm:w-[126px]  lg:mt-[6%] sm:mt-[14%]'>Design</p>
             <p className=' text-[12px] slg:text-[22px]  text-start w-[90%] sm:w-auto lg:mx-auto lg:w-[397px]  sm:text-[18px] font-[400]  lg:mt-[2%] sm:mt-[5%] sm:text-start' >Complete the designs with painting, flooring and other decor solutions</p>
             <p className='slg:mt-[32px] text-[16px] slg:text-[36px]  mt-[20px] text-start w-[250px] lg:mx-auto text-[#4B2A63]   sm:text-[36px] font-[600] sm:w-[154px]  lg:mt-[6%] sm:mt-[14%]'>Move-in</p>
-            <p className='text-[12px] slg:text-[22px]  text-start w-[90%] sm:w-auto lg:mx-auto lg:w-[493px]  sm:text-[18px] font-[400]  lg:mt-[2%]  sm:text-start sm:mt-[3%]'>Move in with ease, with our hassle-free civil work and installation services.</p>
+            <p className='text-[12px] slg:text-[22px]  text-start w-[90%] sm:w-auto lg:mx-auto lg:w-[493px]  sm:text-[18px] font-[400]  lg:mt-[2%]  sm:text-start sm:mt-[3%] lg:text-center'>Move in with ease, with our hassle-free civil work and installation services.</p>
           </div>
 
         </div>

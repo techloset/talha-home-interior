@@ -2,7 +2,7 @@ import React from 'react'
 
 const ourProjects = () => {
     return (
-        <div className='mt-[10%] w-[]  lg:mt-[10%] font-popinsmedium'>
+        <div className='mt-[10%] bg-[#F5FCFF]  lg:mt-[10%] font-popinsmedium'>
 
             {/* heading */}
             <p className='text-[18px] text-[#241330]  sm:ml-[7%] slg:ml-[10%] font-[500] mx-8 sm:text-[36px] lg:hidden '>Our Projects</p>

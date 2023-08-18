@@ -25,10 +25,10 @@ export default {
         // => @media (min-width: 1536px) { ... }
       },
       fontFamily: {
-        popins: ['Poppins', 'sans-serif'],
+        popins: ['Poppins'],
       },
       fontFamily:{
-       popinsmedium:['Poppins', "sans-serif"]
+       popinsmedium:['Poppins' ]
       } ,
       // fontFamily:{
       //  popinsSemiBold:['Poppins', "sans-serif"]

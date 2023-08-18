@@ -5,7 +5,7 @@ import image1 from '../../assets/imag.png'
 
 const Header = () => {
     return (
-        <div className='font-popins '>
+        <div className=' font-popinsmedium'>
 
             <div className='  lg:w-[1920px] lg:-[274px]  '>
 
