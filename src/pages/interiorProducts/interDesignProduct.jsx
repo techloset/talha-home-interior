@@ -7,15 +7,15 @@ const interDesignProduct = () => {
 
                 className="  sm:mx-8 flex flex-col gap-10 vl:max-w-[1920px] xl:mx-auto font-popinsSemiBold sm:mt-[12%]"
             >
-                <h2 className="px-6 sm:px-10 md:px-16 ms:px-[148px] text-purpD font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px] xl:text-center pt-6 xl:pb-[9px] mb-[-16px] xl:mb-0">
+                <h2 className="sm:mx-16 lg:mx-auto px-6 sm:px-10 md:px-16 ms:px-[148px] text-purpD font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px] xl:text-center pt-6 xl:pb-[9px] mb-[-16px] xl:mb-0">
                     Our Interior Design Products
                 </h2>
-                <div className=" sm:mx-auto sm:w-[80%] grid xl:grid-cols-10 max-md:grid-cols-5 grid-rows-2 gap-2 xl:gap-4 max-h-[70vh] px-6 sm:px-10 md:px-16 ms:px-[148px] xl:px-0 w-full xl:w-[80.333%] mx-auto [&>img]:w-[400px]  [&>img]:h-full ">
+                <div className="sm:mt-[3%] lg:mt-auto sm:mx-auto sm:w-[80%] grid xl:grid-cols-10 max-md:grid-cols-5 grid-rows-2 gap-2 xl:gap-4 max-h-[70vh] px-6 sm:px-10 md:px-16 ms:px-[148px] xl:px-0 w-full xl:w-[80.333%] mx-auto [&>img]:w-[400px]  [&>img]:h-full ">
                     <img src='/images/intDesPro1.png' alt="product1" className="col-span-2  " />
                     <img
                         src='/images/intDesPro3.png'
                         alt="product3"
-                        className="xl:row-start-1 xl:row-end-3 col-start-3 col-span-3 row-span-2 "
+                        className="xl:row-start-1 xl:row-end-3 col-start-3 col-span-3 row-span-3 "
                     />
                     <img src='/images/intDesPro2.png' alt="product2" className="col-span-2" />
                     <img
