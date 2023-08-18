@@ -21,9 +21,9 @@ const footer = () => {
                         art of interior designing.</p>
 
                     {/* Small devices content  */}
-                    <div className=' w-[35%]  mx-auto  lg:hidden sm:mt-[6%]'>
-                        <p className=' sm:w-[310px] text-center mt-[10px] text-[12px] sm:text-[24px] sm:font-[500] '>landinteriors@gmail.com</p>
-                        <p className=' sm:mt-[3%] sm:w-[310px] text-center mt-[5px] text-[10px] sm:text-[24px] sm:font-[500] sm:ml-[-14px] '>+91 98987 65656</p>
+                    <div className=' w-[80%]  mx-auto  lg:hidden sm:mt-[6%]'>
+                        <p className=' sm:w-[310px] sm:mx-auto text-center mt-[10px] text-[12px] sm:text-[24px] sm:font-[500] '>landinteriors@gmail.com</p>
+                        <p className=' sm:mt-[3%] sm:mx-auto sm:w-[310px] text-center mt-[5px] text-[10px] sm:text-[24px] sm:font-[500]  '>+91 98987 65656</p>
                     </div>
 
                     {/* social links */}

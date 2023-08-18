@@ -49,9 +49,9 @@ const LandInteriors = () => {
 
           <div className='  h-[410px] ml-[20px] lg:text-center font-popinsSemiBold  sm:ml-[60px] slg:mt-[-10%] md:ml-[80px] lg:mt-[0]  '>
            
-            <p className=' md:ml-[]    slg:mt-[100px] slg:text-[36px] text-[22px] mt-[5px]  w-[90%] sm:w-auto  lg:mx-auto text-[#241330] sm:text-[26px] lg:text-[36px] font-[500] lg:w-[501px] lg:text-center  lg:mt-[6%]  sm:mt-[26%] text-start'>Make your dream interior in</p>
-            <p className=' md:ml-[]    text-[26px] slg:text-[48px]  text-start w-[250px] lg:mx-auto  text-[#241330]  sm:text-[30px] lg:text-[48px] font-[500] sm:w-[301px]  lg:mt-[3%] sm:mt-[6%]' >3 easy steps</p>
-            <p className='md:ml-[]    slg:mt-[32px]  text-[16px] slg:text-[36px]  mt-[20px] text-start w-[250px]  lg:mx-auto text-[#4B2A63]   sm:text-[36px] font-[600] sm:w-[133px]  lg:mt-[6%] sm:mt-[14%]' >Explore</p>
+            <p className=' md:ml-[]    slg:mt-[23%] slg:text-[36px] text-[22px] mt-[5px]  w-[90%] sm:w-auto  lg:mx-auto text-[#241330] sm:text-[36px] lg:text-[36px] font-[500] lg:w-[501px] lg:text-center  lg:mt-[6%]   sm:mt-[20%] text-start'>Make your dream interior in</p>
+            <p className=' md:ml-[]    text-[26px] slg:text-[48px]  text-start w-[250px] lg:mx-auto  text-[#241330]  sm:text-[36px] lg:text-[48px] font-[500] sm:w-[301px]  lg:mt-[3%] sm:mt-[6%]' >3 easy steps</p>
+            <p className='md:ml-[]    slg:mt-[62px]  text-[16px] slg:text-[36px]  mt-[20px] text-start w-[250px]  lg:mx-auto text-[#4B2A63]   sm:text-[36px] font-[600] sm:w-[133px]  lg:mt-[6%] sm:mt-[14%]' >Explore</p>
             <p className='md:ml-[]      slg:text-[22px]  text-[12px] text-start w-[90%] sm:w-auto lg:mx-auto lg:w-[348px]  sm:text-[18px] font-[400]   lg:mt-[2%] sm:mt-[5%] sm:text-start' >Explore more than just modular design ideas with our experts.</p>
             <p className='md:ml-[]    slg:mt-[32px]  text-[16px] slg:text-[36px]  mt-[20px] text-start  w-[250px] lg:mx-auto text-[#4B2A63]   sm:text-[36px] font-[600] sm:w-[126px]  lg:mt-[6%] sm:mt-[14%]'>Design</p>
             <p className=' md:ml-[]    text-[12px]  slg:text-[22px]  text-start w-[90%] sm:w-auto lg:mx-auto lg:w-[397px]  sm:text-[18px] font-[400]  lg:mt-[2%] sm:mt-[5%] sm:text-start' >Complete the designs with painting, flooring and other decor solutions</p>
