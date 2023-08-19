@@ -22,7 +22,7 @@ const ourProjects = () => {
                 </div>
 
                 {/* text */}
-                <div className='col-span-12 sm:mt-[54px] slg:w-[90%] slg:mx-auto lg:col-span-6   bg-opacity-75  lg:z-10   lg:text-center  lg:p-3 lg:mt-[5%]  lg-w[997px] lg:h-[519px] lg:ml-[-160px]   ' >
+                <div className='col-span-12 sm:mt-[54px] slg:w-[90%] slg:mx-auto lg:col-span-6 bg-white   bg-opacity-75  lg:z-10   lg:text-center  lg:p-3 lg:mt-[5%]  lg-w[997px] lg:h-[519px] lg:ml-[-160px]   ' >
                     <div className='lg:w-full lg:m-auto lg:mt-[6%] '>
 
                         <p className='hidden lg:block  lg:text-[36px] text-[#241330] font-[500] lg:mt-[4%] lg:w-[219px] text-center mx-auto'>Our Projects</p>
