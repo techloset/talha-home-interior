@@ -2,10 +2,10 @@ import React from 'react'
 
 const interDesignProduct = () => {
     return (
-        <div>
+        <div className=' bg-blue-400 font-popinsmedium'>
             <div
 
-                className="  sm:mx-8 flex flex-col gap-10 vl:max-w-[1920px] xl:mx-auto font-popinsSemiBold sm:mt-[12%]"
+                className=" lg:mt-[113px]  sm:mx-8 flex flex-col gap-10 vl:max-w-[1920px] xl:mx-auto font-popinsSemiBold sm:mt-[12%]"
             >
                 <h2 className="sm:mx-16 lg:mx-auto px-6 sm:px-10 md:px-16 ms:px-[148px] text-purpD font-medium text-[20px] sm:text-[24px] md:text-[30px] lg:text-[36px] xl:text-center pt-6 xl:pb-[9px] mb-[-16px] xl:mb-0">
                     Our Interior Design Products
@@ -41,14 +41,14 @@ const interDesignProduct = () => {
             </div>
 
 
-            <p className=' text-[14px] sm:text-[24px] sm:mt-[4%] mt-[10px] mx-6 sm:w-[615px] sm:mx-auto  lg:text-[18px] lg:w-[611px] lg:h-[81px] font-[400] lg:m-auto lg:mt-[2%] lg:text-center'>
+            <p className=' text-[14px] sm:text-[24px] sm:mt-[4%] mt-[10px] mx-6 sm:w-[615px] sm:mx-auto  lg:text-[18px] lg:mt-[30px] lg:w-[611px] lg:h-[81px] font-[400] lg:m-auto  lg:text-center'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
                 purus sit amet luctus venenatis, lectus magna fringilla urna,
                 porttitor rhoncus dolor purus non enim
             </p>
 
             <button className='flex justify-center m-auto bg-[#4B2A63]  p-1 w-[25%] sm:mt-[60px] sm:text-[24px] font-[600] sm:w-[270px] sm:h-[80px] sm:p-6 text-white mt-[3%]'>
-                View All
+                View all
             </button>
 
 

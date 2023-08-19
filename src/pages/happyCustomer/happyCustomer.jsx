@@ -38,14 +38,12 @@ const happyCustomer = () => {
 
 
 
-            <div className=' absolute w-[70%] sm:left-[15%]  sm:mt-[-262px]  lg:static  z-10   bg-white sm:h-[250px]   lg:w-[738px] lg:h-[258px] lg:mt-[-205px] lg:mx-[28%]  lg:m-auto lg:text-center'>
+            <div className=' absolute w-[70%] sm:left-[15%]  sm:mt-[-262px]  lg:static  z-10   bg-white sm:h-[250px] lg:w-[738px]   lg:h-[250px] lg:mt-[-205px] lg:mx-[28%]  lg:m-auto lg:text-center'>
 
-                <img className=' mt-[-20px] sm:mt-[-80px]  h-[40px] sm:h-[148px] lg:h-[78px] lg:mt-[-35px] m-auto ' src="/images/happyCustomer4.png" alt="" />
+                <img className=' mt-[-20px] sm:mt-[-80px]  h-[40px] sm:h-[148px] lg:h-[148px] lg:mt-[-85px] m-auto ' src="/images/happyCustomer4.png" alt="" />
 
-                <p className='hidden lg:block sm:text-[20px] sm:w-[541px] sm:font-[400] lg:w-[541px]  lg:m-auto '>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Culpa ipsam iusto maxime molestias? Sint nam illo molestiae deserunt
-                    necessitatibus esse consectetur porro
-                    recusandae numquam tenetur, corrupti asperiores aut! Ipsum, libero.</p>
+                <p className='hidden lg:block sm:text-[20px] sm:w-[541px] sm:font-[400] lg:w-[550px] lg:mt-[16px]  lg:m-auto font-popinsmedium '>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
 
 
                 <p className=' lg:hidden p-5 sm:text-[20px]  w-[80%] mx-auto  text-[10px]  text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,

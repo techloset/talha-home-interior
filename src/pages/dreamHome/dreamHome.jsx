@@ -20,7 +20,7 @@ const dreamHome = () => {
             placeholder="Email/Phone"
             className="border-b-[3px] text-[24px] w-full xl:max-w-[35%] p-2 focus-visible:outline-none"
           />
-          <button className="text-[16px] md:text-[20px] xl:text-[24px] font-semibold py-[22px] px-[104px] bg-[#4B2A63] text-white block mx-auto xl:mx-0">
+          <button className="text-[16px] md:text-[20px] xl:text-[24px] font-semibold py-[22px] px-[104px] bg-[#4B2A63] text-white block mx-auto xl:mx-0 lg:mr-[42px]">
             Send
           </button>
         </div>

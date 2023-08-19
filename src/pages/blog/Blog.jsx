@@ -57,7 +57,7 @@ const Blog = () => {
       return (
 
 
-            <div className='  mt-[10%]  mx-8 lg:mx-20 font-popinsmedium'>
+            <div className='  mt-[10%] lg:mt-[99px]  mx-8 lg:mx-20 font-popinsmedium'>
 
                   <p className=' text-[20px]  sm:ml-[47px] font-popinsMedium sm:text-[36px] font-[500] '>Blogs</p>
                   <Slider {...settings}>
@@ -71,7 +71,7 @@ const Blog = () => {
                                           </div>
                                           <div className=' mt-[10px] '>
                                                 <h1 className='  lg:h-[60px]  lg:w-[80%] h-[30px]  lg:text-[24px] font-[500] lg:mt-[8%]'>{item.title}</h1>
-                                                <h1 className='sm:w-[195px] w-[80%] text-[14px]  lg:w-[90%] lg:text-start  lg:font-[400] lg:mt-[4%] lg:text-[20px] '>{item.Desc}</h1>
+                                                <h1 className='sm:w-[195px] w-[80%] text-[14px]   lg:text-start  lg:font-[400] lg:mt-[4%] lg:text-[17px] lg:h-[78px] lg:w-[300px] '>{item.Desc}</h1>
                                           </div>
 
                                     </div>
@@ -79,7 +79,7 @@ const Blog = () => {
                               ))
                         }
                   </Slider>
-                  <button className=' hidden   lg:flex lg:justify-center lg:m-auto bg-[#4B2A63]  lg:p-5 lg:font-[600] text-white lg:mt-[5%]  lg:w-[270px] lg:h-[80px] lg:text-[24px] '>View All</button>
+                  <button className=' hidden   lg:flex lg:justify-center lg:m-auto bg-[#4B2A63]  lg:p-5 lg:font-[600] text-white lg:mt-[5%]  lg:w-[270px] lg:h-[80px] lg:text-[24px] '>View all</button>
             </div>
       )
 }
