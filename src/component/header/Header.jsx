@@ -52,7 +52,7 @@ const Header = () => {
 
                 {/* //////////////////////////text area/////////////////////////////////// */}
 
-                <div className='bg-blue-500 sm:h-[404px] sm:mt-[-355px] relative z-10 lg:static mt-[-87px] w-[80%] sm:w-[91%] p-3 m-auto bg-opacity-75    lg:mt-[110px] 
+                <div className='bg-white sm:h-[404px] sm:mt-[-355px] relative z-10 lg:static mt-[-87px] w-[80%] sm:w-[91%] p-3 m-auto bg-opacity-75    lg:mt-[110px] 
                  text-center lg:w-[997px] lg:h-[404px] lg:ml-[-120px] '>
 
                     <div className=' -mt-0   '>

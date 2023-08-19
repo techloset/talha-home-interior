@@ -10,7 +10,7 @@ const footer = () => {
 
                 <div className=' w-[80%]   mx-auto lg:col-span-5 lg:mx-10 '>
 .
-                   <div className='slg:mt-[20px] '>
+                   <div className='slg:mt-[20px]'>
                    <img className='     w-[25%]  m-auto    lg:ml-[171px] lg:mt-[63px] sm:w-[111px] sm:h-[111px]  ' src='/images/Artboard.png' alt="" />
                    </div>
 
@@ -21,18 +21,18 @@ const footer = () => {
                         art of interior designing.</p>
 
                     {/* Small devices content  */}
-                    <div className=' w-[80%]  mx-auto  lg:hidden sm:mt-[6%]'>
+                    <div className=' w-[80%]  mx-auto  lg:hidden sm:mt-[16px] lg:mt-auto '>
                         <p className=' sm:w-[310px] sm:mx-auto text-center mt-[10px] text-[12px] sm:text-[24px] sm:font-[500] '>landinteriors@gmail.com</p>
                         <p className=' sm:mt-[3%] sm:mx-auto sm:w-[310px] text-center mt-[5px] text-[10px] sm:text-[24px] sm:font-[500]  '>+91 98987 65656</p>
                     </div>
 
                     {/* social links */}
-                    <div className='mt-2 sm:mt-9 sm:mx-[115px] lg:mx-[100px]  flex justify-around lg:mt-7  '>
-                        <img className='w-[29px] h-[29px]  sm:w-[48px] sm:h-[48px]' src="/images/facebook.png" alt="" />
-                        <img className='w-[29px] h-[29px] sm:w-[48px] sm:h-[48px]' src="/images/inkedin.png" alt="" />
-                        <img className='w-[29px] h-[29px] sm:w-[48px] sm:h-[48px]' src="/images/twitter.png" alt="" />
-                        <img className='w-[29px] h-[29px] sm:w-[48px] sm:h-[48px]' src="/images/youtube.png" alt="" />
-                        <img className='w-[29px] h-[29px] sm:w-[48px] sm:h-[48px]' src="/images/instagram.png" alt="" />
+                    <div className='mt-2 sm:mt-9 sm:mx-[115px]  slg:mx-[200px] lg:mx-[120px] lg:ml-[180px]  flex justify-around lg:mt-7  '>
+                        <img className='w-[48px] h-[48px]  lg:w-[29px] lg:h-[29px]' src="/images/facebook.png" alt="" />
+                        <img className='w-[48px] h-[48px] lg:w-[29px] lg:h-[29px]' src="/images/inkedin.png" alt="" />
+                        <img className='w-[48px] h-[48px] lg:w-[29px] lg:h-[29px]' src="/images/twitter.png" alt="" />
+                        <img className='w-[48px] h-[48px] lg:w-[29px] lg:h-[29px]' src="/images/youtube.png" alt="" />
+                        <img className='w-[57px] h-[56px] lg:w-[34px] lg:h-[34px]' src="/images/instagram.png" alt="" />
                     </div>
                 </div>
                 {/*2rd column above SMALL DEVICES */}
@@ -55,7 +55,7 @@ const footer = () => {
                     <p className=' lg:w-[200px]  lg:mt-8 text-[#4F4F4F]  lg:text-[18px] lg:font-[500] '>landinteriors@gmail.com
                         +91 98987 65656</p>
 
-                    <ul className='flex justify-evenly lg:flex lg:justify-between gap-3 lg:mt-[120px] lg:ml-[30px] lg:text-[18px] lg:w-[650px]  '>
+                    <ul className='flex justify-evenly lg:flex lg:justify-between gap-3 lg:mt-[147px] lg:ml-[30px] lg:text-[18px] lg:w-[650px]  '>
                         <li className='lg:flex lg:justify-around'>About</li>
                         <li>Projects</li>
                         <li>Studio</li>

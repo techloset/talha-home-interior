@@ -34,7 +34,7 @@ const LandInteriors = () => {
 
 
 
-        <div className='absolute lg:static z-10 sm:w-[65%] slg:w-[60%]  h-[410px] w-[50%] text-center bg-white sm:h-[835px]   bg-opacity-75  lg:z-10 lg:col-span-2   font-popins lg:text-center lg:p-3  lg:mt-[9%]  lg:w-[898px] lg:h-[808px]   '>
+        <div className='absolute lg:static z-10 sm:w-[65%] slg:w-[60%]  h-[410px] w-[50%] text-center bg-white slg:h-[780px] sm:h-[835px]   bg-opacity-75  lg:z-10 lg:col-span-2   font-popins lg:text-center lg:p-3  lg:mt-[9%]  lg:w-[898px] lg:h-[808px]   '>
 
 
 
@@ -47,7 +47,7 @@ const LandInteriors = () => {
             <p className='md:ml-[]    slg:mt-[62px]  text-[16px] slg:text-[36px]  mt-[20px] text-start w-[250px]  lg:mx-auto text-[#4B2A63]   sm:text-[36px] font-[600] sm:w-[133px]  lg:mt-[6%] sm:mt-[48px]' >Explore</p>
             <p className='md:ml-[]  sm:w-[95%] lg:text-center     sm:text-[22px]  text-[12px] text-start w-[90%] lg:mx-auto lg:w-[454px]   font-[400]   lg:mt-[2%] sm:mt-[8px] sm:text-start  ' >Explore more than just modular design ideas with our experts.</p>
             <p className='md:ml-[]    slg:mt-[32px]  text-[16px] slg:text-[36px]  mt-[20px] text-start  w-[250px] lg:mx-auto text-[#4B2A63]   sm:text-[36px] font-[600] sm:w-[126px]  lg:mt-[6%] sm:mt-[48px] '>Design</p>
-            <p className=' md:ml-[] sm:w-[95%] lg:text-center   text-[12px]  sm:text-[22px]  text-start w-[90%]  lg:mx-auto lg:w-[500px] lg:text-[18px] font-[400]  lg:mt-[2%] sm:mt-[8] sm:text-start  ' >Complete the designs with painting, flooring and other decor solutions</p>
+            <p className=' md:ml-[]  sm:w-[95%] lg:text-center   text-[12px]  sm:text-[22px]  text-start w-[90%]  lg:mx-auto lg:w-[397px] lg:text-[18px] font-[400]  lg:mt-[2%] sm:mt-[8] sm:text-start  ' >Complete the designs with painting, flooring and other decor solutions</p>
             <p className='md:ml-[]    slg:mt-[32px] text-[16px] slg:text-[36px]  mt-[20px] text-start w-[250px] lg:mx-auto text-[#4B2A63]   sm:text-[36px] font-[600] sm:w-[154px]  lg:mt-[6%] sm:mt-[48px]'>Move-in</p>
             <p className='md:ml-[]  sm:w-[95%]  text-[12px] sm:text-[22px]  text-start w-[90%]  lg:mx-auto lg:w-[493px]   font-[400]  lg:mt-[2%]  sm:text-start sm:mt-[8px] lg:text-center slg:w-[537px] '>Move in with ease, with our hassle-free civil work and installation services.</p>
           </div>
@@ -57,7 +57,7 @@ const LandInteriors = () => {
 
         <div className='  sm:static z-0 lg:col-span-4 '>
 
-          <img src={image16} alt="" className='slg:w-full    h-[410px] w-[100%] sm:w-[1386px] sm:h-[835px] lg:w-[1386px] lg:h-[924px] ' />
+          <img src={image16} alt="" className='slg:w-full    h-[410px] w-[100%] sm:w-[1386px] sm:h-[835px] slg:h-[780px] lg:w-[1386px] lg:h-[924px] ' />
 
         </div>
 
