@@ -37,7 +37,7 @@ const footer = () => {
                 </div>
                 {/*2rd column above SMALL DEVICES */}
 
-                <div className='hidden lg:block  lg:col-span-2  lg:mt-[124px] font-popinsmedium'>
+                <div className='hidden lg:block  lg:col-span-2  lg:mt-[124px] font-popinsmedium lg:ml-[55px]' >
                     <p className='lg:text-[16px]  font-[600] '> WHAT WE DO</p>
                     <ul className='lg:text-[18px] font-[500]  lg:w-[226px] lg:h-[183px] lg:mt-[33px] text-[#4F4F4F] '>
                         <li className='lg:mb-[10px]'>Interior Design</li>
@@ -48,14 +48,14 @@ const footer = () => {
                     </ul>
                 </div>
                 {/* 3rd column above SMALL DEVICES */}
-                <div className='hidden lg:block  lg:col-span-5 md:mx-14  lg:mr-[371px] lg:mt-[119px]  '>
+                <div className='hidden lg:block  lg:col-span-5 md:mx-14 lg:ml-[85px]  lg:mr-[371px] lg:mt-[119px]  '>
 
                     <p className='lg:text-[16px] lg:font-[600] '>Get in touch</p>
 
                     <p className=' lg:w-[200px]  lg:mt-8 text-[#4F4F4F]  lg:text-[18px] lg:font-[500] '>landinteriors@gmail.com
                         +91 98987 65656</p>
 
-                    <ul className='flex justify-evenly lg:flex lg:justify-between gap-3 lg:mt-[147px]  lg:text-[18px] lg:w-[650px] lg:mr-[109px] '>
+                    <ul className='flex justify-evenly lg:flex lg:justify-between gap-3 lg:mt-[147px]  lg:text-[18px] lg:ml-[5px] lg:w-[650px] lg:mr-[109px] '>
                         <li className='lg:flex lg:justify-around'>About</li>
                         <li>Projects</li>
                         <li>Studio</li>
