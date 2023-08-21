@@ -19,7 +19,7 @@ const Blog = () => {
                   {
                         breakpoint: 2520,
                         settings: {
-                              slidesToShow: 4,
+                              slidesToShow: 4.3,
                               slidesToScroll: 2,
                               infinite: true,
                               dots: true
@@ -57,14 +57,14 @@ const Blog = () => {
       return (
 
 
-            <div className='  mt-[10%] lg:mt-[99px]  mx-8 lg:mx-20 font-popinsmedium sm:ml-[100px] sm:mr-[80px]  slg:ml-[147px] lg:ml-[100px] lg:mr-0 '>
+            <div className='  mt-[10%] lg:mt-[99px]  mx-8 lg:mx-20 font-popinsmedium sm:ml-[100px] sm:mr-[80px]  slg:ml-[147px] lg:ml-[100px] lg:mr-[80px] '>
 
                   <p className=' text-[20px]  sm:ml-[47px] font-popinsMedium sm:text-[36px] font-[500] '>Blogs</p>
                   <Slider {...settings}>
                         {
                               dataDigitalBestSeller.map((item) => (
 
-                                    <div className=' overflow-x:hidden   sm:mx-8 lg:mx-0 sm:mt-[58px]   slg:ml-[150px] lg:ml-auto sm:ml-[80px]'>
+                                    <div className=' overflow-x:hidden  sm:mx-8 lg:mx-0 sm:mt-[58px]   slg:ml-[150px] lg:ml-[124px] sm:ml-[80px]'>
 
                                           <div className='mt-[15px]   '>
                                           {/* sm:w-[200px] sm:h-[200px]*/}

@@ -12,7 +12,7 @@ const LandInteriors = () => {
   
   const tailwindClasses = 'md:flex  md:items-center ';
   // md:flex  md:items-center
-  const img1Width1 = 'sm:w-[40px] sm:h-[40px]  md:w-[68px] md:h-[73px] w-[30px] h-[30px] lg:w-[68px] lg:h-[73px]  '
+  const img1Width1 = ' sm:w-[40px] sm:h-[40px]  md:w-[68px] md:h-[73px] w-[30px] h-[30px] lg:w-[68px] lg:h-[73px]  '
   const img1Width2 = 'sm:w-[50px] sm:h-[45px]  md:w-[72px] md:h-[72px] w-[35px] h-[35px] lg:w-[72px] lg:h-[72px] '
   const img1Width3 = 'sm:w-[42px] sm:h-[42px]  md:w-[62px] md:h-[62px] w-[30px] h-[30px] lg:w-[62px] lg:h-[62px] '
   // const textt = 'w-[50px]' 
@@ -24,21 +24,18 @@ const LandInteriors = () => {
         <h2>  Why LAND Interiors </h2>
       </div>
 
-      <div className='  flex justify-around items-center mt-[5%] lg:p-3  lg:mt-[95px] font-popinsmedium ' >
+      <div className='sm:mb-[160px] sm:mt-[80px] lg:mb-0 lg:mx-[130px] lg:ml-[210px]  flex justify-around  items-center mt-[5%] lg:p-3  lg:mt-[95px] font-popinsmedium ' >
         <LandCard classess={tailwindClasses} imgh={img1Width1} text="50 days or we pay you rent " imagesr={imageuurl} />
         <LandCard classess={tailwindClasses} imgh={img1Width2} text="1500+happy Customer " imagesr={imageurl} />
         <LandCard classess={tailwindClasses} imgh={img1Width3} text="300+ design experties " imagesr={imageUrl} />
       </div>
 
-      <div className='relative sm:static   lg:grid lg:grid-cols-6 lg:mt-[10%] sm:mt-[94px]  mt-[25%]'>
 
 
+
+      <div className='relative sm:static   lg:grid lg:grid-cols-6 lg:mt-[10%] sm:mt-[94px]  mt-[25%] '>
 
         <div className='absolute lg:static z-10 sm:w-[65%] slg:w-[60%]  h-[410px] w-[50%] text-center bg-white slg:h-[780px] sm:h-[835px]   bg-opacity-75  lg:z-10 lg:col-span-2   font-popins lg:text-center lg:p-3  lg:mt-[9%]  lg:w-[898px] lg:h-[808px]   '>
-
-
-
-         
 
           <div className=' lg:h-[808px]  h-[410px] ml-[20px]   font-popinsSemiBold sm:ml-[60px]  slg:ml-[60px] slg:mt-[-10%] md:ml-[80px] lg:mt-[0]  '>
            
@@ -53,7 +50,6 @@ const LandInteriors = () => {
           </div>
 
         </div>
-
 
         <div className='  sm:static z-0 lg:col-span-4 '>
 

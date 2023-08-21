@@ -15,7 +15,7 @@ const WhatWeDo = () => {
         <div className=' mt-[10%] sm:mx-8 sm:mt-[44px]  lg:mx-0   lg:mt-[123px] font-popinsmedium '>
 
             <div className=' w-[70%]  slg:mx-[158px] lg:mx-auto text-start text-[18px] mx-auto sm:mx-[110px]     lg:w-auto sm:text-[36px] font-[500] lg:text-center'>
-                <p>What We Do?</p>
+                <p>What We do?</p>
             </div>
 
             <div className=' lg:mx-[276px] grid grid-cols-2 text-center mx-auto sm:w-[80%]   mt-[5%] w-[90%] lg:w-auto    lg:flex lg:justify-around  lg:m-[5%]  '>

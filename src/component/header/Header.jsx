@@ -5,11 +5,11 @@ import image1 from '../../assets/imag.png'
 
 const Header = () => {
     return (
-        <div className=' font-popinsmedium'>
+        <div className=' font-popinsmedium '>
 
-            <div className='  lg:w-[1920px] lg:-[274px]  '>
+            <div className='  lg:w-[1920px]   bg-[#F8F8F8] lg:h-[274px]  '>
 
-                <div className='sm:mt-[15px]    lg:grid lg:grid-cols-2 lg:gap-1 flex justify-between mx-2'>
+                <div className='sm:mt-[15px]   lg:grid lg:grid-cols-2 lg:gap-1 flex justify-between mx-2'>
 
                     <div className='lg:mt-[37px] lg:ml-[37px] sm:mt-[39px] sm:ml-[23px] '>
                         <img src='/images/Artboard.png' alt="" className=' w-[80px] :w-[110px] sm:w-[133px] lg:w-[111px] lg:h-[111px] ' />
@@ -45,7 +45,7 @@ const Header = () => {
             </div>
 
 
-            <div className='lg:grid lg:grid-cols-2 mt-[30px] lg:mt-[60px]'>
+            <div className='lg:grid lg:grid-cols-2 mt-[30px] lg:mt-[126px]'>
 
                 <div className='relative z-0 '> <img src={image1} alt="" className='sm:w-[1090px] sm:h-[757px] h-[390px] md:w-full lg:w-[1090px] lg:h-[613px] ' /> </div>
 
