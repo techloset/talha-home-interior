@@ -19,7 +19,7 @@ const Blog = () => {
                   {
                         breakpoint: 2520,
                         settings: {
-                              slidesToShow: 4.3,
+                              slidesToShow: 4.5,
                               slidesToScroll: 2,
                               infinite: true,
                               dots: true
@@ -57,16 +57,22 @@ const Blog = () => {
       return (
 
 
-            <div className='  mt-[10%] lg:mt-[99px]  mx-8 lg:mx-20 font-popinsmedium sm:ml-[100px] sm:mr-[80px]  slg:ml-[147px] lg:ml-[100px] lg:mr-[80px] '>
+            <div className='  mt-[10%] lg:mt-[99px]  mx-8 lg:mx-20 font-popinsmedium sm:ml-[100px] sm:mr-[80px]  slg:ml-[147px] lg:ml-[120px] lg:mr-[10px]  '>
 
                   <p className=' text-[20px]  sm:ml-[47px] font-popinsMedium sm:text-[36px] font-[500] '>Blogs</p>
+                  
+
+<div className='sm:hidden left-[95.7%] bg-white relative lg:ml-[20px] top-[300px] z-10    lg:flex lg:justify-center items-center lg:w-[57px] lg:h-[53px]'>
+<img src="/images/arrow1.png" alt="" className='lg:w-[11px] lg:h-[21px] '/>
+</div>
+
                   <Slider {...settings}>
                         {
                               dataDigitalBestSeller.map((item) => (
 
-                                    <div className=' overflow-x:hidden  sm:mx-8 lg:mx-0 sm:mt-[58px]   slg:ml-[150px] lg:ml-[124px] sm:ml-[80px]'>
+                                    <div className='z-1 overflow-x:hidden    sm:mx-8 lg:mx-0 sm:mt-[58px]   slg:ml-[115px] lg:ml-[202px] sm:ml-[80px]'>
 
-                                          <div className='mt-[15px]   '>
+                                          <div className='mt-[15px]  '>
                                           {/* sm:w-[200px] sm:h-[200px]*/}
                                                 <img className='   h-[120px] mr-[160px] sm:w-[95%] sm:h-[283px]    slg:w-[330px] slg:h-[333px] ' src={item.linkImg} alt="" />
                                           </div>

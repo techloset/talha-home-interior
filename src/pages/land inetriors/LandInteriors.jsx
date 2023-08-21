@@ -37,9 +37,9 @@ const LandInteriors = () => {
 
         <div className='absolute lg:static z-10 sm:w-[65%] slg:w-[60%]  h-[410px] w-[50%] text-center bg-white slg:h-[780px] sm:h-[835px]   bg-opacity-75  lg:z-10 lg:col-span-2   font-popins lg:text-center lg:p-3  lg:mt-[9%]  lg:w-[898px] lg:h-[808px]   '>
 
-          <div className=' lg:h-[808px]  h-[410px] ml-[20px]   font-popinsSemiBold sm:ml-[60px]  slg:ml-[60px] slg:mt-[-10%] md:ml-[80px] lg:mt-[0]  '>
+          <div className=' lg:h-[808px]  h-[410px] ml-[20px]   font-popinsSemiBold sm:ml-[60px]  sm:h-[730px] lg:w-auto slg:ml-[95px] slg:mt-[-10%] md:ml-[80px] lg:mt-[0]  '>
            
-            <p className=' md:ml-[]    slg:text-[36px] text-[22px] mt-[5px]  w-[90%]   lg:mx-auto text-[#241330]  sm:text-[36px] lg:text-[36px] font-[500] lg:w-[501px] lg:text-center  lg:mt-[6%]   sm:mt-[10%] slg:mt-[20%] text-start'>Make your dream interior in</p>
+            <p className=' md:ml-[]    slg:text-[36px] text-[22px] mt-[5px]  w-[90%]   lg:mx-auto text-[#241330]  sm:text-[36px] lg:text-[36px] font-[500] slg:w-[501px] lg:text-center  lg:mt-[6%]   sm:mt-[10%] slg:mt-[20%] text-start'>Make your dream interior in</p>
             <p className=' md:ml-[]    text-[26px] sm:text-[48px]  text-start w-[250px] lg:mx-auto  text-[#241330]  lg:text-[48px] font-[500] sm:w-[301px]  lg:mt-[3%] slg:mt-[4%] sm:mt-[2%]' >3 easy steps</p>
             <p className='md:ml-[]    slg:mt-[62px]  text-[16px] slg:text-[36px]  mt-[20px] text-start w-[250px]  lg:mx-auto text-[#4B2A63]   sm:text-[36px] font-[600] sm:w-[133px]  lg:mt-[6%] sm:mt-[48px]' >Explore</p>
             <p className='md:ml-[]  sm:w-[95%] lg:text-center     sm:text-[22px]  text-[12px] text-start w-[90%] lg:mx-auto lg:w-[454px]   font-[400]   lg:mt-[2%] sm:mt-[8px] sm:text-start  ' >Explore more than just modular design ideas with our experts.</p>

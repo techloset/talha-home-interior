@@ -43,7 +43,7 @@ const interDesignProduct = () => {
             </div>
 
 
-            <p className= 'hidden slg:block  slg:ml-auto slg:w-[785px] sm:ml-[40px] sm:w-[730px] text-[14px] sm:text-[22px] sm:mt-[4%] mt-[10px] mx-6 slg:mx-auto  lg:text-[27px] lg:mt-[30px] lg:w-[911px]  lg:h-[181px] font-[400] lg:m-auto  lg:text-center'>
+            <p className= 'hidden slg:block  slg:ml-auto slg:w-[785px] sm:ml-[40px] sm:w-[730px] text-[14px] sm:text-[22px] sm:mt-[4%] mt-[10px] mx-6 slg:mx-auto  lg:text-[18px] lg:mt-[30px] lg:w-[611px]  lg:h-[181px] font-[400] lg:m-auto  lg:text-center'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
             </p>
             <p className=' slg:hidden slg:ml-auto slg:w-[785px] sm:ml-[70px] sm:w-[670px] text-[14px] sm:text-[22px] sm:mt-[4%] mt-[10px] mx-6 slg:mx-auto  lg:text-[27px] lg:mt-[30px] lg:w-[911px]  lg:h-[181px] font-[400] lg:m-auto  lg:text-center'>
