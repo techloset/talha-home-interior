@@ -2,7 +2,7 @@ import React from 'react'
 
 const ourProjects = () => {
     return (
-        <div className='mt-[10%] lg:bg-[#F5FCFF] sm:mt-[54px]  lg:mt-[57px] font-popinsmedium'>
+        <div className='mt-[10%] lg:bg-[#F5FCFF] bg-blue-500 sm:mt-[54px]  lg:mt-[57px] font-popinsmedium'>
 
             {/* heading */}
             <p className='text-[18px] text-[#241330]  sm:ml-[7%] slg:ml-[10%] font-[500] mx-8 sm:text-[36px] lg:hidden '>Our Projects</p>
@@ -30,7 +30,7 @@ const ourProjects = () => {
                         <p className=' text-center text-[15px] mt-[6%]    lg:text-center lg:ml-[68px]  slg:w-[784px] slg:mx-auto lg:text-[18px] font-[400]  lg:mt-[4%] lg:w-[860px]  sm:text-[24px]   sm:h-[180px] sm:text-start'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna,
                             porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla</p>
-                        <p className=' text-[15px] mt-[5%]   lg:text-center lg:m-[5%]  lg:mt-[-12px]  slg:w-[780px] slg:mx-auto  lg:ml-[68px] lg:text-[18px] font-[400] lg:w-[860px] sm:text-[24px] sm:mt-[2px]   sm:h-[180px]'>
+                        <p className=' text-[15px] mt-[5%]   lg:text-center lg:m-[5%]  lg:mt-[-12px]  slg:w-[780px] slg:mx-auto  lg:ml-[68px] lg:text-[18px] font-[400] lg:w-[860px] sm:text-[24px] sm:mt-[32px] slg:mt-0   sm:h-[180px]'>
                             magna fringilla urna, porttitor rhoncus dolor purus non enim praesent
                             elementum facilisis leo,vel fringilla est ullamcorper eget nulla</p>
 

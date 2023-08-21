@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className=' font-popinsmedium '>
 
-            <div className='  lg:w-[1920px] bg-[#f8f8f8] mt-[-15px]  lg:h-[274px]  '>
+            <div className='   bg-[#f8f8f8] mt-[-15px]  lg:h-[274px]  '>
 
                 <div className='sm:mt-[15px]   lg:grid lg:grid-cols-2 lg:gap-1 flex justify-between mx-2'>
 

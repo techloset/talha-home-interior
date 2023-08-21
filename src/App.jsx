@@ -12,7 +12,7 @@ import Footer from './component/footer/footer'
 
 const App = () => {
   return (
-    <div>
+    <div className='  overflow-hidden'>
       {/* <ComHeader/> */}
       <Header/>
       <LandInteriors/> 

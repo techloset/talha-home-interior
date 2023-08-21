@@ -62,8 +62,8 @@ const Blog = () => {
                   <p className=' text-[20px]  sm:ml-[47px] font-popinsMedium sm:text-[36px] font-[500] '>Blogs</p>
                   
 
-<div className='sm:hidden left-[95.7%] bg-white relative lg:ml-[20px] top-[300px] z-10    lg:flex lg:justify-center items-center lg:w-[57px] lg:h-[53px]'>
-<img src="/images/arrow1.png" alt="" className='lg:w-[11px] lg:h-[21px] '/>
+<div className='  sm:bg-white  relative  sm:top-[230px] lg:top-[270px]  slg:top-[260px] lg:left-[96.8%] slg:left-[93.3%] sm:left-[91%] z-10    sm:flex sm:justify-center sm:items-center sm:w-[57px] sm:h-[53px]'>
+<img src="/images/arrow1.png" alt="" className='sm:w-[11px] sm:h-[21px] '/>
 </div>
 
                   <Slider {...settings}>
