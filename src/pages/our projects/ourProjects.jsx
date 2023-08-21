@@ -16,8 +16,8 @@ const ourProjects = () => {
                 </div>
 
                 <div className=' mx-auto  lg:col-span-3  lg:-mx-2 sm:ml-[4px] slg:mr-[95px]   '>
-                    <img className='w-[250px] slg:w-[400px] slg:h-[210px] mb-[5%] sm:mb-[2%] lg:mb-[5%]  lg:h-[189px] lg:w-[382px] sm:h-[189px] sm:w-[382px]' src="/images/ourProject3.png" alt="" />
-                    <img className='w-[250px] slg:w-[400px] slg:h-[410px]  lg:w-[378px] lg:h-[379px] sm:w-[378px] sm:h-[379px]' src="/images/ourProject4.png" alt="" />
+                    <img className='w-[250px] slg:w-[400px] slg:h-[216px] mb-[5%] sm:mb-[2%] lg:mb-[5%]  lg:h-[189px] lg:w-[382px] sm:h-[189px] sm:w-[382px]' src="/images/ourProject3.png" alt="" />
+                    <img className='w-[250px] slg:w-[400px] slg:h-[414px]  lg:w-[378px] lg:h-[379px] sm:w-[378px] sm:h-[379px]' src="/images/ourProject4.png" alt="" />
 
                 </div>
 

@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className=' font-popinsmedium '>
 
-            <div className='   bg-[#f8f8f8] mt-[-15px]  lg:h-[274px]  '>
+            <div className='   bg-[#f8f8f8] mt-[-15px]  lg:h-[274px] sm:h-[210px] '>
 
                 <div className='sm:mt-[15px]   lg:grid lg:grid-cols-2 lg:gap-1 flex justify-between mx-2'>
 
@@ -45,7 +45,7 @@ const Header = () => {
             </div>
 
 
-            <div className='lg:grid lg:grid-cols-2 mt-[30px] lg:mt-[68px]'>
+            <div className='lg:grid lg:grid-cols-2  lg:mt-[68px]'>
 
                 <div className='relative z-0 '> <img src={image1} alt="" className='sm:w-[1090px] sm:h-[757px] h-[390px] md:w-full lg:w-[1090px] lg:h-[613px] ' /> </div>
 
