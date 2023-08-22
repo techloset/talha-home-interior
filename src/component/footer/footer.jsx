@@ -4,7 +4,7 @@ import React from 'react'
 const footer = () => {
     return (
         // bg-[#F8F8F8]
-        <div className=' bg-[#F8F8F8]   mt-[5%]    lg:h-[619px]'>
+        <div className=' bg-[#F8F8F8]   mt-[5%] slg:mt-[243px] lg:mt-[95px]  lg:h-[619px]'>
 
             <div className='lg:grid lg:grid-cols-12'>
 

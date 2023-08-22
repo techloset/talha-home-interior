@@ -18,7 +18,7 @@ const WhatWeDo = () => {
                 <p>What we do?</p>
             </div>
 
-            <div className=' lg:mx-[276px] grid grid-cols-2 text-center mx-auto sm:w-[80%]   mt-[5%] w-[90%] lg:w-auto    lg:flex lg:justify-around  lg:m-[5%]  '>
+            <div className=' lg:mx-[276px] grid grid-cols-2 text-center mx-auto sm:w-[80%]   mt-[5%] w-[90%] lg:w-auto    lg:flex lg:justify-around    '>
                 <WhatWeDoCards classes={img1Width} imgeUrl={image1} text='Modular Kitchen' />
                 <WhatWeDoCards classes={img1Width} imgeUrl={image2} text='Bedroom' />
                 <WhatWeDoCards classes={img1Width} imgeUrl={image3} text='Living room' />
@@ -26,10 +26,12 @@ const WhatWeDo = () => {
             </div>
 
 
-            <p className=' hidden lg:block lg:text-center  lg:m-auto lg:text-[18px] md:font-[400] lg:mt-[47px] lg:w-[1041px] lg:h-[144px] '>
+            <div>
+            <p className=' hidden lg:block lg:text-center  lg:m-auto lg:text-[18px] lg:mt-[47px] md:font-[400]   lg:w-[1041px] lg:h-[144px] '>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,
                 vel fringilla est ullamcorper eget nulla
             </p>
+            </div>
 
         </div>
     )

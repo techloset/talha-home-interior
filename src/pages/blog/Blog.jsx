@@ -59,12 +59,12 @@ const Blog = () => {
 
             <div className='  mt-[10%] lg:mt-[99px]  mx-8 lg:mx-20 font-popinsmedium sm:ml-[100px] sm:mr-[80px]  slg:ml-[147px] lg:ml-[120px] lg:mr-[10px]  '>
 
-                  <p className=' text-[20px]  sm:ml-[47px] font-popinsMedium sm:text-[36px] font-[500] '>Blogs</p>
-                  
+                  <p className=' text-[20px]  sm:ml-[47px] font-popinsMedium sm:text-[36px] font-[500] slg:ml-0 lg:ml-[3px]'>Blogs</p>
 
-<div className='  sm:bg-white  relative  sm:top-[230px] lg:top-[270px]  slg:top-[260px] lg:left-[96.8%] slg:left-[93.3%] sm:left-[91%] z-10    sm:flex sm:justify-center sm:items-center sm:w-[57px] sm:h-[53px]'>
-<img src="/images/arrow1.png" alt="" className='sm:w-[11px] sm:h-[21px] '/>
-</div>
+
+                  <div className='  sm:bg-white  relative  sm:top-[230px] lg:top-[270px]  slg:top-[260px] lg:left-[96.8%] slg:left-[93.3%] sm:left-[91%] z-10    sm:flex sm:justify-center sm:items-center sm:w-[57px] sm:h-[53px]'>
+                        <img src="/images/arrow1.png" alt="" className='sm:w-[11px] sm:h-[21px] ' />
+                  </div>
 
                   <Slider {...settings}>
                         {
@@ -73,7 +73,7 @@ const Blog = () => {
                                     <div className='z-1 overflow-x:hidden    sm:mx-8 lg:mx-0 sm:mt-[58px]   slg:ml-[115px] lg:ml-[202px] sm:ml-[80px]'>
 
                                           <div className='mt-[15px]  '>
-                                          {/* sm:w-[200px] sm:h-[200px]*/}
+                                                {/* sm:w-[200px] sm:h-[200px]*/}
                                                 <img className='   h-[120px] mr-[160px] sm:w-[95%] sm:h-[283px]    slg:w-[330px] slg:h-[333px] ' src={item.linkImg} alt="" />
                                           </div>
 
